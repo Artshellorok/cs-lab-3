@@ -1,0 +1,48 @@
+printLevel() {
+    local i
+    for (( i=0; i<$1; i++))
+    do
+        printf "\u2502\u00A0\u00A0\u0020"
+    done
+}
+printEntity() {
+    if [[ $2 -eq $(( $3 -1 )) ]]; then
+        printf "\u2514\u2500\u2500\u0020$1\n" 
+    else
+        printf "\u251c\u2500\u2500\u0020$1\n" 
+    fi
+}
+
+printDir() {
+    local list
+    local len
+    list=( $( find $1 -maxdepth 1 -type f ) )
+    len=${#list}
+    for (( i=0; i < $len; i++))
+    do
+        printf "${list[$i]}"
+        printf " "
+    done
+    echo ""
+    for (( i=0; i < $len; i++))
+    do
+        if [[ -d "${list[$i]}" ]]; then
+            cd ${list[$i]}
+            printDir '.' $(( $2 +1 ))
+        else
+            printLevel $2
+            printEntity ${list[$i]} $i $len
+        fi
+    done
+    if ! [[ $2 -eq 0 ]]; then 
+        cd ..
+    fi
+}
+
+echo "$1"
+# temp=($(find $1 -maxdepth 1 -type f))
+# for dir in ${temp[@]}; do
+#     echo $dir
+# done
+
+printDir $1 0
