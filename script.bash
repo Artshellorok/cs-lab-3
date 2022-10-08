@@ -1,8 +1,7 @@
 export LANG=en_US.UTF-8
 
 printLevel() {
-    local i
-    lim=$1
+    local i lim=$1
     if [[ $2 -eq 1 ]]; then
         lim=$(( $1 - 1 ))
     fi
@@ -56,13 +55,19 @@ printDir() {
 
 count_dir=0
 count_files=0
+count_arg=0
 for path in "$@"
 do
+    count_arg=$(( count_arg + 1 ))
     if ! [[ -d "$path" ]]; then
         echo "$path  [error opening dir]"
     else
         echo "$path"
-        printDir $path 0 0
+        if [[ $count_arg -eq $# ]]; then
+            printDir $path 0 0
+        else
+            printDir $path 0 0
+        fi
     fi
 done
 
