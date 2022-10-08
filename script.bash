@@ -59,4 +59,4 @@ count_files=0
 
 printDir $1 0 0
 
-printf "\n$count_dir directories, $count_files files"
+printf "\n$count_dir directories, $count_files files\n"
