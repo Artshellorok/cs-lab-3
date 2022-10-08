@@ -11,14 +11,14 @@ printLevel() {
         printf "\u2502\u00A0\u00A0\u0020"
     done
     if [[ $2 -eq 1 ]]; then
-        printf "\u00A0\u00A0\u00A0\u0020"
+        printf "\u0020\u0020\u0020\u0020"
     fi
 }
 printEntity() {
     if [[ $2 -eq $(( $3 -1 )) ]]; then
-       printf "\u2514\u2500\u2500\u0020 $( basename ${1} )\n"
+       printf "\u2514\u2500\u2500\u0020$( basename ${1} )\n"
     else
-        printf "\u251c\u2500\u2500\u0020 $( basename ${1} )\n" 
+        printf "\u251c\u2500\u2500\u0020$( basename ${1} )\n" 
     fi
 }
 printDir() {
