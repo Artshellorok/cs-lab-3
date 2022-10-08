@@ -26,8 +26,11 @@ printDir() {
     local len
     local i 
     # list=( $( ls -1 $1 | tr '\n' ' ' ) )
+    # list=($1/*)
+    # list=($1/* "adas")
     list=($1/*)
     len=${#list[@]}
+
     for (( i=0; i < $len; i++ ))
     do
         if [[ -d "${list[$i]}" ]]; then
@@ -51,12 +54,17 @@ printDir() {
     # fi
 }
 
-
-echo "$1"
-
 count_dir=0
 count_files=0
+for path in "$@"
+do
+    if ! [[ -d "$path" ]]; then
+        echo "$path  [error opening dir]"
+    else
+        echo "$path"
+        printDir $path 0 0
+    fi
+done
 
-printDir $1 0 0
 
 printf "\n$count_dir directories, $count_files files\n"
