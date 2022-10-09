@@ -9,8 +9,8 @@
             "request": "launch",
             "name": "Bash-Debug (hardcoded script name)",
             "cwd": "${workspaceFolder}",
-            "program": "${workspaceFolder}/script.bash",
-            "args": ["dir", ".."]
+            "program": "${workspaceFolder}/test.bash",
+            "args": ["~/projects/uni"]
         },
     ]
 }
