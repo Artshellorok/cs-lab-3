@@ -34,8 +34,9 @@ traverse(){
             local local_prefix="\u2502\u00A0\u00A0\u0020"
             local pointer="\u251c\u2500\u2500\u0020"
         fi
-
-        printf "$prefix$pointer${el##*/}\n"
+        # echo $prefix $pointer $el
+        printf "${prefix}${pointer}"
+        echo "${el##*/}"
 
         if [[ -d $el ]]; then
             count_dir=$(( count_dir +1 ))
