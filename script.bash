@@ -3,17 +3,6 @@
 export LANG=en_US.UTF-8
 shopt -s nullglob
 shopt -u expand_aliases
-printEntity() {
-    filepath=$1
-    ind=$2
-    n=$3
-    if [[ $ind -eq $(( n -1 )) ]]; then
-       printf "\u2514"
-    else
-        printf "\u251c"
-    fi
-    printf "\u2500\u2500\u0020${filepath##*/}\n"
-}
 
 traverse(){
     local path=$1
@@ -27,9 +16,6 @@ traverse(){
     do
         local el=${files[$i]}
 
-        # if [[ $( basename $el ) -eq "\*" ]]; then
-        #     continue
-        # fi
         if [[ $i -eq $(( n-1 )) ]]; then
             local local_prefix="\u0020\u0020\u0020\u0020"
             local pointer="\u2514\u2500\u2500\u0020"
@@ -37,25 +23,11 @@ traverse(){
             local local_prefix="\u2502\u00A0\u00A0\u0020"
             local pointer="\u251c\u2500\u2500\u0020"
         fi
-        # echo $prefix $pointer $el
         printf "${prefix}${pointer}"
-        # if [[ -L $el ]]; then
-        #     if [[ -d "$el" ]]; then
-        #         count_dir=$(( count_dir + 1 ))
-        #     else
-        #         count_files=$(( count_files + 1 ))
-        #     fi
-        #     echo "${el##*/} -> $( realpath $el )"
-        #     continue
-        # fi
 
         if [[ -d $el ]]; then
             count_dir=$(( count_dir +1 ))
-            if ! [[ -r $el ]]; then
-                echo "${el##*/}  [error opening dir]"
-            else
-                echo "${el##*/}"
-            fi
+            echo "${el##*/}"
             traverse "$el" "$prefix$local_prefix"
         else
             echo "${el##*/}"
@@ -71,19 +43,13 @@ count_files=0
 
 if [[ $# -eq 0 ]]; then
     traverse '.' ''
+else
+    count_dir=0
+    count_files=0
+    path=$1
+    echo $path
+    traverse "$path" ""
 fi
-
-for path in "$@"
-do
-    if ! [[ -d "$path" ]]; then
-        echo "$path  [error opening dir]"
-    else
-        count_dir=0
-        count_files=0
-        echo $path
-        traverse "$path" ""
-    fi
-done
 
 printf "\n"
 
