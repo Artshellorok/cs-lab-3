@@ -29,12 +29,13 @@ traverse(){
         # fi
         if [[ $i -eq $(( n-1 )) ]]; then
             local local_prefix="\u0020\u0020\u0020\u0020"
+            local pointer="\u2514\u2500\u2500\u0020"
         else 
             local local_prefix="\u2502\u00A0\u00A0\u0020"
+            local pointer="\u251c\u2500\u2500\u0020"
         fi
 
-        printf "$prefix"
-        printEntity $el $i $n
+        printf "$prefix$pointer${el##*/}\n"
 
         if [[ -d $el ]]; then
             count_dir=$(( count_dir +1 ))
