@@ -1,3 +1,5 @@
+#!/bin/bash
+
 export LANG=en_US.UTF-8
 shopt -s nullglob
 shopt -u expand_aliases
