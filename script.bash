@@ -50,6 +50,10 @@ traverse(){
 count_dir=0
 count_files=0
 
+if [[ $# -eq 0 ]]; then
+    traverse '.' ''
+fi
+
 for path in "$@"
 do
     if ! [[ -d "$path" ]]; then
