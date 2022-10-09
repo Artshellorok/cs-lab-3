@@ -38,7 +38,13 @@ traverse(){
         # echo $prefix $pointer $el
         printf "${prefix}${pointer}"
         if [[ -L $el ]]; then
+            if [[ -d "$el" ]]; then
+                count_dir=$(( count_dir + 1 ))
+            else
+                count_files=$(( count_files + 1 )) 
+            fi
             echo "${el##*/} -> $( realpath $el )"
+            continue
         else
             echo "${el##*/}"
         fi
