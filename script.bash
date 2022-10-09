@@ -1,24 +1,11 @@
 #!/bin/bash
 
 export LANG=en_US.UTF-8
-shopt -s nullglob
-shopt -u expand_aliases
-printEntity() {
-    filepath=$1
-    ind=$2
-    n=$3
-    if [[ $ind -eq $(( n -1 )) ]]; then
-       printf "\u2514"
-    else
-        printf "\u251c"
-    fi
-    printf "\u2500\u2500\u0020${filepath##*/}\n"
-}
 
 traverse(){
     local path=$1
     local prefix=$2
-    local files=("$path"/*)
+    local files=( $( ls $path ) )
     local n=${#files[@]}
     local i
 
@@ -49,14 +36,14 @@ traverse(){
         #     continue
         # fi
 
-        if [[ -d $el ]]; then
+        if [[ -d "$path/$el" ]]; then
             count_dir=$(( count_dir +1 ))
-            if ! [[ -r $el ]]; then
-                echo "${el##*/}  [error opening dir]"
+            if ! [[ -r "$path/$el" ]]; then
+                echo "$el  [error opening dir]"
             else 
-                echo "${el##*/}"
+                echo "$el"
             fi
-            traverse "$el" "$prefix$local_prefix"
+            traverse "$path/$el" "$prefix$local_prefix"
         else
             echo "${el##*/}"
             count_files=$(( count_files +1 ))
@@ -98,4 +85,3 @@ else
     printf "$count_files files\n"
 fi
 # printf "\n$count_dir directories, $count_files files\n"
-shopt -u nullglob
