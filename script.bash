@@ -45,14 +45,18 @@ traverse(){
             fi
             echo "${el##*/} -> $( realpath $el )"
             continue
-        else
-            echo "${el##*/}"
         fi
 
         if [[ -d $el ]]; then
             count_dir=$(( count_dir +1 ))
+            if ! [[ -r $el ]]; then
+                echo "${el##*/}  [error opening dir]"
+            else 
+                echo "${el##*/}"
+            fi
             traverse "$el" "$prefix$local_prefix"
         else
+            echo "${el##*/}"
             count_files=$(( count_files +1 ))
         fi
 
@@ -78,10 +82,13 @@ do
         traverse "$path" ""
     fi
 done
+
+printf "\n"
+
 if [[ $count_dir -eq 1 ]]; then
-    printf "\n1 directory, "
+    printf "1 directory, "
 else
-    printf "\n$count_dir directories, "
+    printf "$count_dir directories, "
 fi
 if [[ $count_files -eq 1 ]]; then
     printf "1 file\n"

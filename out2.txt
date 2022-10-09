@@ -1,391 +1,1816 @@
-dir
-├── aaa
-│   ├── abilities.jpeg
-│   ├── abstracts
-│   ├── accepted.jpeg
-│   ├── accreditation.jpeg
-│   └── accurately.jpeg
-├── abc
-├── aberdeen
-│   ├── aa
-│   │   ├── aa
-│   │   │   └── aaa.txt
-│   │   ├── aaa
-│   │   │   ├── ability
-│   │   │   │   ├── abc
-│   │   │   │   ├── abilities
-│   │   │   │   │   ├── aa.txt
-│   │   │   │   │   └── ab
-│   │   │   │   │       └── abandoned.pdf
-│   │   │   │   ├── ability
-│   │   │   │   │   └── aberdeen
-│   │   │   │   └── ab.txt
-│   │   │   └── ab.pdf
-│   │   └── aaa.doc
-│   ├── aa.jpg
-│   └── ab
-│       └── aa.jpeg
-├── abilities
-│   └── aaa.txt
-├── ability
-│   ├── ability.png
-│   ├── accident.jpeg
-│   └── acm.txt
-├── abstract.jpeg
-├── abuse.pdf
-├── acceptance.doc
-├── accredited.doc
-├── accused
-│   ├── academic.pdf
-│   ├── accordance.pdf
-│   ├── according.jpeg
-│   ├── acknowledged.txt
-│   ├── acknowledge.jpg
-│   └── acm.doc
-├── ace
-│   ├── accommodate
-│   └── acquisition.txt
-├── acquisitions
-│   ├── absence.doc
-│   ├── accessing.png
-│   ├── acknowledge.jpg
-│   └── acting.doc
-├── acrobat
-│   ├── abstract.doc
-│   ├── accent
-│   │   ├── aaron.png
-│   │   ├── accent.jpeg
-│   │   ├── accomplish.pdf
-│   │   ├── according.png
-│   │   ├── acer
-│   │   │   ├── accepts.pdf
-│   │   │   ├── accepts.png
-│   │   │   ├── accessibility.pdf
-│   │   │   ├── accused.jpg
-│   │   │   ├── acid.jpeg
-│   │   │   └── acting.jpeg
-│   │   ├── acknowledge.txt
-│   │   ├── acne
-│   │   │   ├── aaa.doc
-│   │   │   ├── aaron
-│   │   │   │   └── accuracy.jpeg
-│   │   │   ├── aberdeen
-│   │   │   │   ├── accomplish.pdf
-│   │   │   │   ├── accordance.jpg
-│   │   │   │   ├── acrylic.png
-│   │   │   │   └── action.jpg
-│   │   │   ├── abraham.pdf
-│   │   │   ├── abroad
-│   │   │   │   └── abu
-│   │   │   ├── accidents
-│   │   │   │   ├── acknowledge.pdf
-│   │   │   │   └── acm.txt
-│   │   │   ├── accompanied
-│   │   │   │   ├── abraham
-│   │   │   │   │   ├── ability.jpg
-│   │   │   │   │   ├── academic
-│   │   │   │   │   ├── accordance.pdf
-│   │   │   │   │   ├── accurately.jpeg
-│   │   │   │   │   ├── acer
-│   │   │   │   │   ├── acne.jpg
-│   │   │   │   │   └── acquire.jpeg
-│   │   │   │   ├── acceptable
-│   │   │   │   │   ├── aaron.doc
-│   │   │   │   │   ├── above
-│   │   │   │   │   │   ├── ableaboriginal.doc
-│   │   │   │   │   │   ├── abu.jpeg
-│   │   │   │   │   │   ├── abu.pdf
-│   │   │   │   │   │   ├── acids.jpeg
-│   │   │   │   │   │   └── act.pdf
-│   │   │   │   │   ├── absorption
-│   │   │   │   │   │   ├── aberdeen.doc
-│   │   │   │   │   │   ├── abilities.jpg
-│   │   │   │   │   │   ├── absolute
-│   │   │   │   │   │   ├── accepted.doc
-│   │   │   │   │   │   ├── accommodation.doc
-│   │   │   │   │   │   ├── accommodation.jpeg
-│   │   │   │   │   │   ├── account.png
-│   │   │   │   │   │   ├── acm
-│   │   │   │   │   │   │   ├── aaron
-│   │   │   │   │   │   │   │   ├── above.txt
-│   │   │   │   │   │   │   │   ├── accepts.jpeg
-│   │   │   │   │   │   │   │   └── accompanied.jpg
-│   │   │   │   │   │   │   ├── absent
-│   │   │   │   │   │   │   │   └── aaron.png
-│   │   │   │   │   │   │   ├── acceptance
-│   │   │   │   │   │   │   │   ├── about.txt
-│   │   │   │   │   │   │   │   ├── accommodate.txt
-│   │   │   │   │   │   │   │   ├── accommodation.png
-│   │   │   │   │   │   │   │   ├── accomplish.jpeg
-│   │   │   │   │   │   │   │   ├── according.jpg
-│   │   │   │   │   │   │   │   ├── achieving.pdf
-│   │   │   │   │   │   │   │   ├── acrylic.txt
-│   │   │   │   │   │   │   │   ├── actions.doc
-│   │   │   │   │   │   │   │   └── activated.jpg
-│   │   │   │   │   │   │   ├── access
-│   │   │   │   │   │   │   ├── accounting
-│   │   │   │   │   │   │   │   └── acrobat.png
-│   │   │   │   │   │   │   ├── accreditation
-│   │   │   │   │   │   │   │   ├── ableaboriginal.jpg
-│   │   │   │   │   │   │   │   ├── absolutely.doc
-│   │   │   │   │   │   │   │   ├── academic.pdf
-│   │   │   │   │   │   │   │   ├── academy.png
-│   │   │   │   │   │   │   │   ├── accepting.jpeg
-│   │   │   │   │   │   │   │   ├── ace.png
-│   │   │   │   │   │   │   │   ├── achieved.doc
-│   │   │   │   │   │   │   │   └── acrobat.doc
-│   │   │   │   │   │   │   ├── accused
-│   │   │   │   │   │   │   │   ├── aaa
-│   │   │   │   │   │   │   │   │   └── accessible.doc
-│   │   │   │   │   │   │   │   ├── aaa.png
-│   │   │   │   │   │   │   │   ├── acceptance
-│   │   │   │   │   │   │   │   │   ├── aaa
-│   │   │   │   │   │   │   │   │   │   └── accreditation.jpeg
-│   │   │   │   │   │   │   │   │   ├── academics
-│   │   │   │   │   │   │   │   │   │   ├── accept.jpeg
-│   │   │   │   │   │   │   │   │   │   ├── accompanied.doc
-│   │   │   │   │   │   │   │   │   │   ├── achievement.pdf
-│   │   │   │   │   │   │   │   │   │   ├── acknowledge.doc
-│   │   │   │   │   │   │   │   │   │   ├── acm.jpeg
-│   │   │   │   │   │   │   │   │   │   └── action.jpeg
-│   │   │   │   │   │   │   │   │   ├── accepted.doc
-│   │   │   │   │   │   │   │   │   ├── accidents.pdf
-│   │   │   │   │   │   │   │   │   ├── accomplished.doc
-│   │   │   │   │   │   │   │   │   ├── accordance
-│   │   │   │   │   │   │   │   │   │   ├── aaron
-│   │   │   │   │   │   │   │   │   │   ├── ability.png
-│   │   │   │   │   │   │   │   │   │   ├── abraham.txt
-│   │   │   │   │   │   │   │   │   │   ├── abu.doc
-│   │   │   │   │   │   │   │   │   │   ├── abu.jpeg
-│   │   │   │   │   │   │   │   │   │   ├── accomplish
-│   │   │   │   │   │   │   │   │   │   ├── accountability
-│   │   │   │   │   │   │   │   │   │   └── acres.doc
-│   │   │   │   │   │   │   │   │   ├── accountability.txt
-│   │   │   │   │   │   │   │   │   ├── accredited
-│   │   │   │   │   │   │   │   │   │   ├── abilities.pdf
-│   │   │   │   │   │   │   │   │   │   ├── absent.jpeg
-│   │   │   │   │   │   │   │   │   │   ├── accepts.txt
-│   │   │   │   │   │   │   │   │   │   ├── acting.txt
-│   │   │   │   │   │   │   │   │   │   └── activation.jpeg
-│   │   │   │   │   │   │   │   │   ├── accused.jpeg
-│   │   │   │   │   │   │   │   │   ├── achieve.png
-│   │   │   │   │   │   │   │   │   ├── acoustic
-│   │   │   │   │   │   │   │   │   │   ├── abc.doc
-│   │   │   │   │   │   │   │   │   │   ├── accessed
-│   │   │   │   │   │   │   │   │   │   ├── accessories.jpeg
-│   │   │   │   │   │   │   │   │   │   ├── accommodate.doc
-│   │   │   │   │   │   │   │   │   │   ├── accurate.jpeg
-│   │   │   │   │   │   │   │   │   │   └── acre.png
-│   │   │   │   │   │   │   │   │   ├── acquisition
-│   │   │   │   │   │   │   │   │   │   ├── aa.jpeg
-│   │   │   │   │   │   │   │   │   │   ├── aberdeen
-│   │   │   │   │   │   │   │   │   │   ├── ab.jpeg
-│   │   │   │   │   │   │   │   │   │   ├── above.doc
-│   │   │   │   │   │   │   │   │   │   ├── access.jpeg
-│   │   │   │   │   │   │   │   │   │   ├── accidents
-│   │   │   │   │   │   │   │   │   │   ├── accompanied.png
-│   │   │   │   │   │   │   │   │   │   ├── accurately
-│   │   │   │   │   │   │   │   │   │   └── achieving.doc
-│   │   │   │   │   │   │   │   │   ├── acquisition.png
-│   │   │   │   │   │   │   │   │   ├── acrylic.jpeg
-│   │   │   │   │   │   │   │   │   └── action.png
-│   │   │   │   │   │   │   │   ├── accident
-│   │   │   │   │   │   │   │   │   ├── abortion.jpeg
-│   │   │   │   │   │   │   │   │   ├── abs.png
-│   │   │   │   │   │   │   │   │   ├── abu.jpeg
-│   │   │   │   │   │   │   │   │   ├── academics.doc
-│   │   │   │   │   │   │   │   │   ├── accent.png
-│   │   │   │   │   │   │   │   │   ├── acceptance.txt
-│   │   │   │   │   │   │   │   │   ├── accessibility.txt
-│   │   │   │   │   │   │   │   │   ├── accredited.jpeg
-│   │   │   │   │   │   │   │   │   ├── accurate.jpeg
-│   │   │   │   │   │   │   │   │   ├── acer.txt
-│   │   │   │   │   │   │   │   │   ├── acknowledged.txt
-│   │   │   │   │   │   │   │   │   ├── acknowledge.jpg
-│   │   │   │   │   │   │   │   │   └── acquisition.png
-│   │   │   │   │   │   │   │   ├── accommodate
-│   │   │   │   │   │   │   │   ├── according
-│   │   │   │   │   │   │   │   │   ├── abc.doc
-│   │   │   │   │   │   │   │   │   ├── about.png
-│   │   │   │   │   │   │   │   │   ├── absolute.jpeg
-│   │   │   │   │   │   │   │   │   ├── abu.jpeg
-│   │   │   │   │   │   │   │   │   ├── accident
-│   │   │   │   │   │   │   │   │   ├── acquire.jpg
-│   │   │   │   │   │   │   │   │   ├── acquisitions.png
-│   │   │   │   │   │   │   │   │   ├── acres.png
-│   │   │   │   │   │   │   │   │   └── acting.jpg
-│   │   │   │   │   │   │   │   ├── acdbentity.pdf
-│   │   │   │   │   │   │   │   ├── achieve
-│   │   │   │   │   │   │   │   │   ├── abilities.jpeg
-│   │   │   │   │   │   │   │   │   ├── about.jpeg
-│   │   │   │   │   │   │   │   │   ├── accepts.doc
-│   │   │   │   │   │   │   │   │   ├── accounts.jpg
-│   │   │   │   │   │   │   │   │   ├── accreditation.png
-│   │   │   │   │   │   │   │   │   ├── accused.jpg
-│   │   │   │   │   │   │   │   │   └── acquired
-│   │   │   │   │   │   │   │   ├── achievements.jpeg
-│   │   │   │   │   │   │   │   ├── acids
-│   │   │   │   │   │   │   │   │   ├── ace.doc
-│   │   │   │   │   │   │   │   │   ├── acres.jpeg
-│   │   │   │   │   │   │   │   │   └── action
-│   │   │   │   │   │   │   │   ├── acm
-│   │   │   │   │   │   │   │   │   ├── ab.doc
-│   │   │   │   │   │   │   │   │   ├── accommodation.jpeg
-│   │   │   │   │   │   │   │   │   ├── accomplish.jpg
-│   │   │   │   │   │   │   │   │   └── acquisitions.jpg
-│   │   │   │   │   │   │   │   ├── acrylic.png
-│   │   │   │   │   │   │   │   └── activated
-│   │   │   │   │   │   │   │       ├── absolute.jpeg
-│   │   │   │   │   │   │   │       └── acting.pdf
-│   │   │   │   │   │   │   └── actions.txt
-│   │   │   │   │   │   ├── acoustic
-│   │   │   │   │   │   │   ├── aaron.jpeg
-│   │   │   │   │   │   │   ├── accent.pdf
-│   │   │   │   │   │   │   ├── accidents.pdf
-│   │   │   │   │   │   │   ├── accommodate.doc
-│   │   │   │   │   │   │   ├── accuracy.doc
-│   │   │   │   │   │   │   ├── accurate.jpg
-│   │   │   │   │   │   │   ├── acdbentity
-│   │   │   │   │   │   │   ├── ace.png
-│   │   │   │   │   │   │   └── act.doc
-│   │   │   │   │   │   ├── active.pdf
-│   │   │   │   │   │   └── activists
-│   │   │   │   │   ├── absorption.jpg
-│   │   │   │   │   ├── academy.txt
-│   │   │   │   │   ├── accent
-│   │   │   │   │   │   ├── accuracy
-│   │   │   │   │   │   ├── acne.png
-│   │   │   │   │   │   └── actively.png
-│   │   │   │   │   ├── accompanying.jpeg
-│   │   │   │   │   ├── account.jpeg
-│   │   │   │   │   ├── accounts.png
-│   │   │   │   │   ├── ace.doc
-│   │   │   │   │   ├── achieving.txt
-│   │   │   │   │   ├── acne
-│   │   │   │   │   │   ├── acer.jpg
-│   │   │   │   │   │   ├── acm.doc
-│   │   │   │   │   │   └── acrobat.png
-│   │   │   │   │   ├── acoustic.jpg
-│   │   │   │   │   ├── acquire
-│   │   │   │   │   │   ├── about.pdf
-│   │   │   │   │   │   ├── accessible
-│   │   │   │   │   │   ├── accommodations.jpg
-│   │   │   │   │   │   └── active.png
-│   │   │   │   │   ├── acquired
-│   │   │   │   │   │   ├── accepted.jpg
-│   │   │   │   │   │   ├── acm.txt
-│   │   │   │   │   │   ├── acquire
-│   │   │   │   │   │   ├── acquisitions.jpg
-│   │   │   │   │   │   └── actions.doc
-│   │   │   │   │   └── acres
-│   │   │   │   │       ├── accompanied.doc
-│   │   │   │   │       └── accused.txt
-│   │   │   │   ├── accomplish
-│   │   │   │   │   ├── ab.jpg
-│   │   │   │   │   ├── accidents.doc
-│   │   │   │   │   ├── according.doc
-│   │   │   │   │   └── accordingly
-│   │   │   │   ├── account.doc
-│   │   │   │   ├── accuracy
-│   │   │   │   │   ├── acceptance.doc
-│   │   │   │   │   ├── access
-│   │   │   │   │   ├── accordingly
-│   │   │   │   │   ├── acknowledged.pdf
-│   │   │   │   │   └── acoustic.jpg
-│   │   │   │   ├── ac.doc
-│   │   │   │   └── acid
-│   │   │   │       ├── aberdeen.jpeg
-│   │   │   │       ├── abortion.pdf
-│   │   │   │       ├── absence
-│   │   │   │       ├── accredited.png
-│   │   │   │       ├── acknowledged.txt
-│   │   │   │       ├── acres.txt
-│   │   │   │       └── activated.jpeg
-│   │   │   ├── accordance
-│   │   │   │   ├── abc.doc
-│   │   │   │   ├── accepted.jpg
-│   │   │   │   ├── accepting.png
-│   │   │   │   ├── according.pdf
-│   │   │   │   ├── account.txt
-│   │   │   │   ├── accused.doc
-│   │   │   │   ├── acdbentity
-│   │   │   │   └── acknowledge
-│   │   │   ├── accounts
-│   │   │   │   ├── absent
-│   │   │   │   ├── accommodations.jpg
-│   │   │   │   └── activists.png
-│   │   │   ├── accurate.txt
-│   │   │   ├── achievement.pdf
-│   │   │   ├── achieving
-│   │   │   │   ├── aa.pdf
-│   │   │   │   ├── aaron.pdf
-│   │   │   │   ├── abc.jpg
-│   │   │   │   ├── accommodate
-│   │   │   │   └── accused.png
-│   │   │   ├── acrylic
-│   │   │   │   ├── abc.png
-│   │   │   │   ├── ability.pdf
-│   │   │   │   ├── above.jpeg
-│   │   │   │   ├── above.txt
-│   │   │   │   ├── abraham
-│   │   │   │   ├── acid
-│   │   │   │   ├── acid.png
-│   │   │   │   └── acids.png
-│   │   │   ├── act
-│   │   │   ├── action.png
-│   │   │   ├── activation.jpg
-│   │   │   └── activation.pdf
-│   │   ├── acoustic
-│   │   │   ├── accessibility.txt
-│   │   │   ├── accidents.txt
-│   │   │   ├── accommodation.png
-│   │   │   ├── achieving.jpg
-│   │   │   ├── acknowledged.png
-│   │   │   ├── acne.png
-│   │   │   ├── acquisition.jpeg
-│   │   │   └── acting.jpg
-│   │   └── acting
-│   │       ├── abortion
-│   │       ├── abstracts.doc
-│   │       ├── access.jpeg
-│   │       ├── accessory.png
-│   │       ├── accidents.doc
-│   │       ├── accidents.pdf
-│   │       ├── accuracy.png
-│   │       ├── actions.jpg
-│   │       └── actively.txt
-│   ├── accomplish.pdf
-│   └── acoustic
-│       ├── aaron.jpeg
-│       ├── abilities.pdf
-│       ├── acceptable.png
-│       ├── accepting.jpg
-│       ├── accomplish
-│       ├── acoustic.pdf
-│       └── acrylic.pdf
-├── act
-│   ├── accordingly.jpeg
-│   ├── accounts
-│   ├── accused.jpeg
-│   ├── acoustic
-│   └── acres.jpeg
-└── active
-    ├── about.jpg
-    ├── absent.doc
-    ├── accused.jpg
-    ├── achieved.txt
-    ├── acm.jpeg
-    └── acres.doc
-idk
-├── kek.txt
-└── testing
-kek  [error opening dir]
-link  [error opening dir]
-nothisislink  [error opening dir]
-out2.txt  [error opening dir]
-out.txt  [error opening dir]
-README.md  [error opening dir]
-script.bash  [error opening dir]
-tester_3.pyc  [error opening dir]
+/etc
+├── adjtime
+├── alsa
+│   └── conf.d
+│       ├── 10-rate-lav.conf -> /usr/share/alsa/alsa.conf.d/10-rate-lav.conf
+│       ├── 10-samplerate.conf -> /usr/share/alsa/alsa.conf.d/10-samplerate.conf
+│       ├── 10-speexrate.conf -> /usr/share/alsa/alsa.conf.d/10-speexrate.conf
+│       ├── 50-arcam-av-ctl.conf -> /usr/share/alsa/alsa.conf.d/50-arcam-av-ctl.conf
+│       ├── 50-jack.conf -> /usr/share/alsa/alsa.conf.d/50-jack.conf
+│       ├── 50-oss.conf -> /usr/share/alsa/alsa.conf.d/50-oss.conf
+│       ├── 50-pipewire.conf -> /usr/share/alsa/alsa.conf.d/50-pipewire.conf
+│       ├── 50-pulseaudio.conf -> /usr/share/alsa/alsa.conf.d/50-pulseaudio.conf
+│       ├── 60-a52-encoder.conf -> /usr/share/alsa/alsa.conf.d/60-a52-encoder.conf
+│       ├── 60-speex.conf -> /usr/share/alsa/alsa.conf.d/60-speex.conf
+│       ├── 60-upmix.conf -> /usr/share/alsa/alsa.conf.d/60-upmix.conf
+│       ├── 60-vdownmix.conf -> /usr/share/alsa/alsa.conf.d/60-vdownmix.conf
+│       ├── 98-usb-stream.conf -> /usr/share/alsa/alsa.conf.d/98-usb-stream.conf
+│       └── 99-pulseaudio-default.conf -> /usr/share/alsa/alsa.conf.d/99-pulseaudio-default.conf
+├── arch-release
+├── audit
+│   ├── audisp-remote.conf
+│   ├── auditd.conf
+│   ├── audit-stop.rules
+│   ├── plugins.d  [error opening dir]
+│   └── zos-remote.conf
+├── avahi
+│   ├── avahi-autoipd.action
+│   ├── avahi-daemon.conf
+│   ├── avahi-dnsconfd.action
+│   ├── hosts
+│   └── services
+├── bash.bash_logout
+├── bash.bashrc
+├── bind.keys
+├── bindresvport.blacklist
+├── binfmt.d
+├── bitcoin  [error opening dir]
+├── bluetooth
+│   ├── main.conf
+│   └── mesh-main.conf
+├── brlapi.key
+├── brltty.conf
+├── bumblebee
+│   ├── bumblebee.conf
+│   ├── xorg.conf.d
+│   │   └── 10-dummy.conf
+│   ├── xorg.conf.nouveau
+│   └── xorg.conf.nvidia
+├── ca-certificates
+│   ├── extracted
+│   │   ├── ca-bundle.trust.crt
+│   │   ├── cadir
+│   │   │   ├── 002c0b4f.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_R46.pem
+│   │   │   ├── 01419da9.0 -> /etc/ca-certificates/extracted/cadir/Microsoft_ECC_Root_Certificate_Authority_2017.pem
+│   │   │   ├── 02265526.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G2.pem
+│   │   │   ├── 03179a64.0 -> /etc/ca-certificates/extracted/cadir/Staat_der_Nederlanden_EV_Root_CA.pem
+│   │   │   ├── 04f60c28.0 -> /etc/ca-certificates/extracted/cadir/USERTrust_ECC_Certification_Authority.pem
+│   │   │   ├── 062cdee6.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R3.pem
+│   │   │   ├── 064e0aa9.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2_G3.pem
+│   │   │   ├── 06dc52d5.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+│   │   │   ├── 09789157.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Services_Root_Certificate_Authority_-_G2.pem
+│   │   │   ├── 0a775a30.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R3.pem
+│   │   │   ├── 0b1b94ef.0 -> /etc/ca-certificates/extracted/cadir/CFCA_EV_ROOT.pem
+│   │   │   ├── 0b9bc432.0 -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X2.pem
+│   │   │   ├── 0bf05006.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_ECC.pem
+│   │   │   ├── 0d69c7e1.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R4.pem
+│   │   │   ├── 0f5dc4f3.0 -> /etc/ca-certificates/extracted/cadir/UCA_Extended_Validation_Root.pem
+│   │   │   ├── 0f6fa695.0 -> /etc/ca-certificates/extracted/cadir/GDCA_TrustAUTH_R5_ROOT.pem
+│   │   │   ├── 1001acf7.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R1.pem
+│   │   │   ├── 10531352.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Services_Root_Certificate_Authority_-_G2.pem
+│   │   │   ├── 106f3e4d.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_EC1.pem
+│   │   │   ├── 14bc7599.0 -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_G3.pem
+│   │   │   ├── 18856ac4.0 -> /etc/ca-certificates/extracted/cadir/SecureSign_RootCA11.pem
+│   │   │   ├── 1ae85e5e.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P256_Certification_Authority.pem
+│   │   │   ├── 1b0f7e5c.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_R46.pem
+│   │   │   ├── 1d3472b9.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R5.pem
+│   │   │   ├── 1df5a75f.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_2009.pem
+│   │   │   ├── 1e08bfd1.0 -> /etc/ca-certificates/extracted/cadir/IdenTrust_Public_Sector_Root_CA_1.pem
+│   │   │   ├── 1e09d511.0 -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_2.pem
+│   │   │   ├── 1e1eab7c.0 -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_3.pem
+│   │   │   ├── 1e8e7201.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R3.pem
+│   │   │   ├── 1ec40989.0 -> /etc/ca-certificates/extracted/cadir/GLOBALTRUST_2020.pem
+│   │   │   ├── 1f58a078.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2_G3.pem
+│   │   │   ├── 219d9499.0 -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Class_2_CA.pem
+│   │   │   ├── 23f4c490.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Class_2_CA.pem
+│   │   │   ├── 244b5494.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_High_Assurance_EV_Root_CA.pem
+│   │   │   ├── 252252d2.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_ECC_P384_Root_G5.pem
+│   │   │   ├── 2923b3f9.0 -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_G1.pem
+│   │   │   ├── 2add47b6.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R5.pem
+│   │   │   ├── 2ae6433e.0 -> /etc/ca-certificates/extracted/cadir/CA_Disig_Root_R2.pem
+│   │   │   ├── 2b349938.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Commercial.pem
+│   │   │   ├── 2d9dafe4.0 -> /etc/ca-certificates/extracted/cadir/Buypass_Class_3_Root_CA.pem
+│   │   │   ├── 2fa87019.0 -> /etc/ca-certificates/extracted/cadir/Network_Solutions_Certificate_Authority.pem
+│   │   │   ├── 302904dd.0 -> /etc/ca-certificates/extracted/cadir/Certigna_Root_CA.pem
+│   │   │   ├── 304d27c3.0 -> /etc/ca-certificates/extracted/cadir/UCA_Global_G2_Root.pem
+│   │   │   ├── 31188b5e.0 -> /etc/ca-certificates/extracted/cadir/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+│   │   │   ├── 32888f65.0 -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+│   │   │   ├── 33ee480d.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_RSA.pem
+│   │   │   ├── 349f2832.0 -> /etc/ca-certificates/extracted/cadir/EC-ACC.pem
+│   │   │   ├── 35105088.0 -> /etc/ca-certificates/extracted/cadir/USERTrust_RSA_Certification_Authority.pem
+│   │   │   ├── 3513523f.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_CA.pem
+│   │   │   ├── 399e7759.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_CA.pem
+│   │   │   ├── 3ad48a91.0 -> /etc/ca-certificates/extracted/cadir/Baltimore_CyberTrust_Root.pem
+│   │   │   ├── 3bde41ac.0 -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+│   │   │   ├── 3bde41ac.1 -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.1.pem
+│   │   │   ├── 3c6676aa.0 -> /etc/ca-certificates/extracted/cadir/Staat_der_Nederlanden_EV_Root_CA.pem
+│   │   │   ├── 3c860d51.0 -> /etc/ca-certificates/extracted/cadir/SwissSign_Gold_CA_-_G2.pem
+│   │   │   ├── 3c899c73.0 -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GC_CA.pem
+│   │   │   ├── 3c9a4d3b.0 -> /etc/ca-certificates/extracted/cadir/ACCVRAIZ1.pem
+│   │   │   ├── 3e44d2f7.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-2.pem
+│   │   │   ├── 3e45d192.0 -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_1.pem
+│   │   │   ├── 3e7271e8.0 -> /etc/ca-certificates/extracted/cadir/Entrust.net_Premium_2048_Secure_Server_CA.pem
+│   │   │   ├── 3fb36b73.0 -> /etc/ca-certificates/extracted/cadir/NAVER_Global_Root_Certification_Authority.pem
+│   │   │   ├── 40193066.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA_2.pem
+│   │   │   ├── 4042bcee.0 -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X1.pem
+│   │   │   ├── 40547a79.0 -> /etc/ca-certificates/extracted/cadir/COMODO_Certification_Authority.pem
+│   │   │   ├── 406c9bb1.0 -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_C1.pem
+│   │   │   ├── 40c7e66e.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_RSA_v3.pem
+│   │   │   ├── 41a3f684.0 -> /etc/ca-certificates/extracted/cadir/Certum_EC-384_CA.pem
+│   │   │   ├── 4304c5e5.0 -> /etc/ca-certificates/extracted/cadir/Network_Solutions_Certificate_Authority.pem
+│   │   │   ├── 455f1b52.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G2.pem
+│   │   │   ├── 48a195d8.0 -> /etc/ca-certificates/extracted/cadir/Izenpe.com.pem
+│   │   │   ├── 48bec511.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA.pem
+│   │   │   ├── 4b718d9b.0 -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_C3.pem
+│   │   │   ├── 4be590e0.0 -> /etc/ca-certificates/extracted/cadir/IdenTrust_Public_Sector_Root_CA_1.pem
+│   │   │   ├── 4bfab552.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Root_Certificate_Authority_-_G2.pem
+│   │   │   ├── 4c3982f2.0 -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_ECC_Root_CA_2021.pem
+│   │   │   ├── 4f316efb.0 -> /etc/ca-certificates/extracted/cadir/SwissSign_Gold_CA_-_G2.pem
+│   │   │   ├── 5046c355.0 -> /etc/ca-certificates/extracted/cadir/SwissSign_Silver_CA_-_G2.pem
+│   │   │   ├── 5273a94c.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Certification_Authority.pem
+│   │   │   ├── 52b525c7.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_1_G3.pem
+│   │   │   ├── 53a1b57a.0 -> /etc/ca-certificates/extracted/cadir/HiPKI_Root_CA_-_G1.pem
+│   │   │   ├── 5443e9e3.0 -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_3.pem
+│   │   │   ├── 54657681.0 -> /etc/ca-certificates/extracted/cadir/Buypass_Class_2_Root_CA.pem
+│   │   │   ├── 57bcb2da.0 -> /etc/ca-certificates/extracted/cadir/SwissSign_Silver_CA_-_G2.pem
+│   │   │   ├── 583d0756.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+│   │   │   ├── 5931b5bc.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_EV_Root_CA_1_2020.pem
+│   │   │   ├── 5a3f0ff8.0 -> /etc/ca-certificates/extracted/cadir/COMODO_Certification_Authority.pem
+│   │   │   ├── 5a7722fb.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_ECC_v3.pem
+│   │   │   ├── 5acf816d.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R4.pem
+│   │   │   ├── 5ad8a5d6.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA.pem
+│   │   │   ├── 5cd81ad7.0 -> /etc/ca-certificates/extracted/cadir/TeliaSonera_Root_CA_v1.pem
+│   │   │   ├── 5d3033c5.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-1.pem
+│   │   │   ├── 5e98733a.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G4.pem
+│   │   │   ├── 5f15c80c.0 -> /etc/ca-certificates/extracted/cadir/TWCA_Global_Root_CA.pem
+│   │   │   ├── 5f47b495.0 -> /etc/ca-certificates/extracted/cadir/Actalis_Authentication_Root_CA.pem
+│   │   │   ├── 5f618aec.0 -> /etc/ca-certificates/extracted/cadir/certSIGN_Root_CA_G2.pem
+│   │   │   ├── 5f9a69fa.0 -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+│   │   │   ├── 5fdd185d.0 -> /etc/ca-certificates/extracted/cadir/Certainly_Root_E1.pem
+│   │   │   ├── 607986c7.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G2.pem
+│   │   │   ├── 60afe812.0 -> /etc/ca-certificates/extracted/cadir/NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
+│   │   │   ├── 6187b673.0 -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X1.pem
+│   │   │   ├── 626dceaf.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R2.pem
+│   │   │   ├── 63a2c897.0 -> /etc/ca-certificates/extracted/cadir/TeliaSonera_Root_CA_v1.pem
+│   │   │   ├── 653b494a.0 -> /etc/ca-certificates/extracted/cadir/Baltimore_CyberTrust_Root.pem
+│   │   │   ├── 66445960.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_RSA_v3.pem
+│   │   │   ├── 68dd7389.0 -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_3.pem
+│   │   │   ├── 69105f4f.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_CA.pem
+│   │   │   ├── 6b03dec0.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R3.pem
+│   │   │   ├── 6b99d060.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority.pem
+│   │   │   ├── 6d41d539.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_2.pem
+│   │   │   ├── 6fa5da56.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_RSA.pem
+│   │   │   ├── 706f604c.0 -> /etc/ca-certificates/extracted/cadir/XRamp_Global_CA_Root.pem
+│   │   │   ├── 716c07b3.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_ECC_v3.pem
+│   │   │   ├── 749e9e03.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_1_G3.pem
+│   │   │   ├── 75680d2e.0 -> /etc/ca-certificates/extracted/cadir/Comodo_AAA_Services_root.pem
+│   │   │   ├── 75d1b2ed.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Trusted_Root_G4.pem
+│   │   │   ├── 76579174.0 -> /etc/ca-certificates/extracted/cadir/XRamp_Global_CA_Root.pem
+│   │   │   ├── 76faf6c0.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3.pem
+│   │   │   ├── 7719f463.0 -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+│   │   │   ├── 773e07ad.0 -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GC_CA.pem
+│   │   │   ├── 7892ad52.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_ECC.pem
+│   │   │   ├── 7a3adc42.0 -> /etc/ca-certificates/extracted/cadir/vTrus_Root_CA.pem
+│   │   │   ├── 7a780d93.0 -> /etc/ca-certificates/extracted/cadir/Certainly_Root_R1.pem
+│   │   │   ├── 7a7c655d.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_3.pem
+│   │   │   ├── 7a819ef2.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2.pem
+│   │   │   ├── 7aaf71c0.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_ECA-1.pem
+│   │   │   ├── 7c302982.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-1.pem
+│   │   │   ├── 7f3d5d1d.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G3.pem
+│   │   │   ├── 8160b96c.0 -> /etc/ca-certificates/extracted/cadir/Microsec_e-Szigno_Root_CA_2009.pem
+│   │   │   ├── 81b9768f.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_High_Assurance_EV_Root_CA.pem
+│   │   │   ├── 82223c44.0 -> /etc/ca-certificates/extracted/cadir/Buypass_Class_2_Root_CA.pem
+│   │   │   ├── 83e9984f.0 -> /etc/ca-certificates/extracted/cadir/e-Szigno_Root_CA_2017.pem
+│   │   │   ├── 8508e720.0 -> /etc/ca-certificates/extracted/cadir/Certainly_Root_E1.pem
+│   │   │   ├── 85cde254.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Root_Certificate_Authority_-_G2.pem
+│   │   │   ├── 86212b19.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Networking.pem
+│   │   │   ├── 869fbf79.0 -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_C3.pem
+│   │   │   ├── 8794b4e3.0 -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X2.pem
+│   │   │   ├── 882de061.0 -> /etc/ca-certificates/extracted/cadir/certSIGN_ROOT_CA.pem
+│   │   │   ├── 88950faa.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_ECC.pem
+│   │   │   ├── 89c02a45.0 -> /etc/ca-certificates/extracted/cadir/COMODO_ECC_Certification_Authority.pem
+│   │   │   ├── 8cb5ee0f.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_3.pem
+│   │   │   ├── 8d6437c3.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G2.pem
+│   │   │   ├── 8d86cdd1.0 -> /etc/ca-certificates/extracted/cadir/certSIGN_ROOT_CA.pem
+│   │   │   ├── 8d89cda1.0 -> /etc/ca-certificates/extracted/cadir/Microsoft_ECC_Root_Certificate_Authority_2017.pem
+│   │   │   ├── 8f103249.0 -> /etc/ca-certificates/extracted/cadir/Telia_Root_CA_v2.pem
+│   │   │   ├── 90c5a3c8.0 -> /etc/ca-certificates/extracted/cadir/HiPKI_Root_CA_-_G1.pem
+│   │   │   ├── 9282e51c.0 -> /etc/ca-certificates/extracted/cadir/CFCA_EV_ROOT.pem
+│   │   │   ├── 930ac5d2.0 -> /etc/ca-certificates/extracted/cadir/Actalis_Authentication_Root_CA.pem
+│   │   │   ├── 9339512a.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3.pem
+│   │   │   ├── 93851c9e.0 -> /etc/ca-certificates/extracted/cadir/ANF_Secure_Server_Root_CA.pem
+│   │   │   ├── 93bc0acc.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Networking.pem
+│   │   │   ├── 9479c8c3.0 -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+│   │   │   ├── 9482e63a.0 -> /etc/ca-certificates/extracted/cadir/Certum_EC-384_CA.pem
+│   │   │   ├── 9576d26b.0 -> /etc/ca-certificates/extracted/cadir/CA_Disig_Root_R2.pem
+│   │   │   ├── 9591a472.0 -> /etc/ca-certificates/extracted/cadir/Microsoft_RSA_Root_Certificate_Authority_2017.pem
+│   │   │   ├── 95aff9e3.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA.pem
+│   │   │   ├── 9685a493.0 -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_1.pem
+│   │   │   ├── 9846683b.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_ECC_P384_Root_G5.pem
+│   │   │   ├── 985c1f52.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R6.pem
+│   │   │   ├── 988a38cb.0 -> /etc/ca-certificates/extracted/cadir/NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
+│   │   │   ├── 99e1b953.0 -> /etc/ca-certificates/extracted/cadir/vTrus_Root_CA.pem
+│   │   │   ├── 9aef356c.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P384_Certification_Authority.pem
+│   │   │   ├── 9b5697b0.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P256_Certification_Authority.pem
+│   │   │   ├── 9c8dfbd4.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium_ECC.pem
+│   │   │   ├── 9d04f354.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G2.pem
+│   │   │   ├── 9d6523ce.0 -> /etc/ca-certificates/extracted/cadir/ePKI_Root_Certification_Authority.pem
+│   │   │   ├── 9ef4a08a.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_BR_Root_CA_1_2020.pem
+│   │   │   ├── 9f727ac7.0 -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_RSA_Root_CA_2021.pem
+│   │   │   ├── a2c66da8.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Trusted_Root_G4.pem
+│   │   │   ├── a3418fda.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R4.pem
+│   │   │   ├── a3896b44.0 -> /etc/ca-certificates/extracted/cadir/Security_Communication_Root_CA.pem
+│   │   │   ├── a716d4ed.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_EV_Root_CA_1_2020.pem
+│   │   │   ├── a81e292b.0 -> /etc/ca-certificates/extracted/cadir/SZAFIR_ROOT_CA2.pem
+│   │   │   ├── a94d09e5.0 -> /etc/ca-certificates/extracted/cadir/ACCVRAIZ1.pem
+│   │   │   ├── a9d40e02.0 -> /etc/ca-certificates/extracted/cadir/certSIGN_Root_CA_G2.pem
+│   │   │   ├── ab5346f4.0 -> /etc/ca-certificates/extracted/cadir/SecureSign_RootCA11.pem
+│   │   │   ├── ab59055e.0 -> /etc/ca-certificates/extracted/cadir/GDCA_TrustAUTH_R5_ROOT.pem
+│   │   │   ├── ACCVRAIZ1.pem
+│   │   │   ├── AC_RAIZ_FNMT-RCM.pem
+│   │   │   ├── AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+│   │   │   ├── Actalis_Authentication_Root_CA.pem
+│   │   │   ├── aeb67534.0 -> /etc/ca-certificates/extracted/cadir/EC-ACC.pem
+│   │   │   ├── aee5f10d.0 -> /etc/ca-certificates/extracted/cadir/Entrust.net_Premium_2048_Secure_Server_CA.pem
+│   │   │   ├── AffirmTrust_Commercial.pem
+│   │   │   ├── AffirmTrust_Networking.pem
+│   │   │   ├── AffirmTrust_Premium_ECC.pem
+│   │   │   ├── AffirmTrust_Premium.pem
+│   │   │   ├── Amazon_Root_CA_1.pem
+│   │   │   ├── Amazon_Root_CA_2.pem
+│   │   │   ├── Amazon_Root_CA_3.pem
+│   │   │   ├── Amazon_Root_CA_4.pem
+│   │   │   ├── ANF_Secure_Server_Root_CA.pem
+│   │   │   ├── Atos_TrustedRoot_2011.pem
+│   │   │   ├── Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.1.pem
+│   │   │   ├── Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+│   │   │   ├── b0e59380.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R4.pem
+│   │   │   ├── b0ed035a.0 -> /etc/ca-certificates/extracted/cadir/TWCA_Global_Root_CA.pem
+│   │   │   ├── b0f3e76e.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA.pem
+│   │   │   ├── b1159c4c.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_CA.pem
+│   │   │   ├── b30d5fda.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_BR_Root_CA_1_2020.pem
+│   │   │   ├── b3fb433b.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_EC1.pem
+│   │   │   ├── b433981b.0 -> /etc/ca-certificates/extracted/cadir/ANF_Secure_Server_Root_CA.pem
+│   │   │   ├── b66938e9.0 -> /etc/ca-certificates/extracted/cadir/Secure_Global_CA.pem
+│   │   │   ├── b727005e.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium.pem
+│   │   │   ├── b74d2bd5.0 -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_G3.pem
+│   │   │   ├── b7a5b843.0 -> /etc/ca-certificates/extracted/cadir/TWCA_Root_Certification_Authority.pem
+│   │   │   ├── b7db1890.0 -> /etc/ca-certificates/extracted/cadir/TWCA_Root_Certification_Authority.pem
+│   │   │   ├── b81b93f0.0 -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+│   │   │   ├── b872f2b4.0 -> /etc/ca-certificates/extracted/cadir/Atos_TrustedRoot_2011.pem
+│   │   │   ├── b92fd57f.0 -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_RSA_Root_CA_2021.pem
+│   │   │   ├── b936d1c6.0 -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM.pem
+│   │   │   ├── Baltimore_CyberTrust_Root.pem
+│   │   │   ├── bc3f2570.0 -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Root_Certificate_Authority_-_G2.pem
+│   │   │   ├── bd43e1dd.0 -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_3.pem
+│   │   │   ├── bdacca6f.0 -> /etc/ca-certificates/extracted/cadir/Secure_Global_CA.pem
+│   │   │   ├── bf53fb88.0 -> /etc/ca-certificates/extracted/cadir/Microsoft_RSA_Root_Certificate_Authority_2017.pem
+│   │   │   ├── bf64f35b.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority.pem
+│   │   │   ├── Buypass_Class_2_Root_CA.pem
+│   │   │   ├── Buypass_Class_3_Root_CA.pem
+│   │   │   ├── c01eb047.0 -> /etc/ca-certificates/extracted/cadir/UCA_Global_G2_Root.pem
+│   │   │   ├── c28a8a30.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_2009.pem
+│   │   │   ├── c2c1704e.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_ECA-1.pem
+│   │   │   ├── c44cc0c0.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_RSA4096_Root_G5.pem
+│   │   │   ├── c491639e.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G3.pem
+│   │   │   ├── c559d742.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R2.pem
+│   │   │   ├── c90bc37d.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G2.pem
+│   │   │   ├── ca6e4ad9.0 -> /etc/ca-certificates/extracted/cadir/ePKI_Root_Certification_Authority.pem
+│   │   │   ├── CA_Disig_Root_R2.pem
+│   │   │   ├── cb156124.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Certification_Authority.pem
+│   │   │   ├── cb1c3204.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA_2.pem
+│   │   │   ├── cbf06781.0 -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Root_Certificate_Authority_-_G2.pem
+│   │   │   ├── cc450945.0 -> /etc/ca-certificates/extracted/cadir/Izenpe.com.pem
+│   │   │   ├── ccc52f49.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium_ECC.pem
+│   │   │   ├── cd58d51e.0 -> /etc/ca-certificates/extracted/cadir/Security_Communication_RootCA2.pem
+│   │   │   ├── cd8c0d63.0 -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM.pem
+│   │   │   ├── ce5e74ef.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_1.pem
+│   │   │   ├── Certainly_Root_E1.pem
+│   │   │   ├── Certainly_Root_R1.pem
+│   │   │   ├── Certigna.pem
+│   │   │   ├── Certigna_Root_CA.pem
+│   │   │   ├── certSIGN_Root_CA_G2.pem
+│   │   │   ├── certSIGN_ROOT_CA.pem
+│   │   │   ├── Certum_EC-384_CA.pem
+│   │   │   ├── Certum_Trusted_Network_CA_2.pem
+│   │   │   ├── Certum_Trusted_Network_CA.pem
+│   │   │   ├── Certum_Trusted_Root_CA.pem
+│   │   │   ├── cf701eeb.0 -> /etc/ca-certificates/extracted/cadir/SecureTrust_CA.pem
+│   │   │   ├── CFCA_EV_ROOT.pem
+│   │   │   ├── Comodo_AAA_Services_root.pem
+│   │   │   ├── COMODO_Certification_Authority.pem
+│   │   │   ├── COMODO_ECC_Certification_Authority.pem
+│   │   │   ├── COMODO_RSA_Certification_Authority.pem
+│   │   │   ├── d06393bb.0 -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_2.pem
+│   │   │   ├── d0cddf45.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-2.pem
+│   │   │   ├── d16a5865.0 -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+│   │   │   ├── d16a5865.1 -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.1.pem
+│   │   │   ├── d18e9066.0 -> /etc/ca-certificates/extracted/cadir/IdenTrust_Commercial_Root_CA_1.pem
+│   │   │   ├── d39b0a2c.0 -> /etc/ca-certificates/extracted/cadir/NAVER_Global_Root_Certification_Authority.pem
+│   │   │   ├── d41b5e2a.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_4.pem
+│   │   │   ├── d4c339cb.0 -> /etc/ca-certificates/extracted/cadir/COMODO_RSA_Certification_Authority.pem
+│   │   │   ├── d4dae3dd.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+│   │   │   ├── d52c538d.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_RSA4096_Root_G5.pem
+│   │   │   ├── d59297b8.0 -> /etc/ca-certificates/extracted/cadir/Security_Communication_RootCA2.pem
+│   │   │   ├── d6325660.0 -> /etc/ca-certificates/extracted/cadir/COMODO_RSA_Certification_Authority.pem
+│   │   │   ├── d7746a63.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+│   │   │   ├── d7e8dc79.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2.pem
+│   │   │   ├── d887a5bb.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P384_Certification_Authority.pem
+│   │   │   ├── d96b65e2.0 -> /etc/ca-certificates/extracted/cadir/Certainly_Root_R1.pem
+│   │   │   ├── da7377f6.0 -> /etc/ca-certificates/extracted/cadir/UCA_Extended_Validation_Root.pem
+│   │   │   ├── dbc54cab.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium.pem
+│   │   │   ├── dbff3a01.0 -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_C1.pem
+│   │   │   ├── dc4d6a89.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R6.pem
+│   │   │   ├── dc99f41e.0 -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+│   │   │   ├── dd8e9d41.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G3.pem
+│   │   │   ├── de6d66f3.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_4.pem
+│   │   │   ├── dfc0fe80.0 -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GB_CA.pem
+│   │   │   ├── DigiCert_Assured_ID_Root_CA.pem
+│   │   │   ├── DigiCert_Assured_ID_Root_G2.pem
+│   │   │   ├── DigiCert_Assured_ID_Root_G3.pem
+│   │   │   ├── DigiCert_Global_Root_CA.pem
+│   │   │   ├── DigiCert_Global_Root_G2.pem
+│   │   │   ├── DigiCert_Global_Root_G3.pem
+│   │   │   ├── DigiCert_High_Assurance_EV_Root_CA.pem
+│   │   │   ├── DigiCert_TLS_ECC_P384_Root_G5.pem
+│   │   │   ├── DigiCert_TLS_RSA4096_Root_G5.pem
+│   │   │   ├── DigiCert_Trusted_Root_G4.pem
+│   │   │   ├── D-TRUST_BR_Root_CA_1_2020.pem
+│   │   │   ├── D-TRUST_EV_Root_CA_1_2020.pem
+│   │   │   ├── D-TRUST_Root_Class_3_CA_2_2009.pem
+│   │   │   ├── D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+│   │   │   ├── e113c810.0 -> /etc/ca-certificates/extracted/cadir/Certigna.pem
+│   │   │   ├── e13665f9.0 -> /etc/ca-certificates/extracted/cadir/TunTrust_Root_CA.pem
+│   │   │   ├── e18bfb83.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3_G3.pem
+│   │   │   ├── e35234b1.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Root_CA.pem
+│   │   │   ├── e36a6752.0 -> /etc/ca-certificates/extracted/cadir/Atos_TrustedRoot_2011.pem
+│   │   │   ├── e442e424.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3_G3.pem
+│   │   │   ├── e48193cf.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Commercial.pem
+│   │   │   ├── e73d606e.0 -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GB_CA.pem
+│   │   │   ├── e7c037b4.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_E46.pem
+│   │   │   ├── e8651083.0 -> /etc/ca-certificates/extracted/cadir/Microsec_e-Szigno_Root_CA_2009.pem
+│   │   │   ├── e868b802.0 -> /etc/ca-certificates/extracted/cadir/e-Szigno_Root_CA_2017.pem
+│   │   │   ├── e8de2f56.0 -> /etc/ca-certificates/extracted/cadir/Buypass_Class_3_Root_CA.pem
+│   │   │   ├── EC-ACC.pem
+│   │   │   ├── ecccd8db.0 -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_ECC_Root_CA_2021.pem
+│   │   │   ├── ed39abd0.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G3.pem
+│   │   │   ├── ed858448.0 -> /etc/ca-certificates/extracted/cadir/vTrus_ECC_Root_CA.pem
+│   │   │   ├── edcbddb5.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_Certification_Authority.pem
+│   │   │   ├── ee532fd5.0 -> /etc/ca-certificates/extracted/cadir/vTrus_ECC_Root_CA.pem
+│   │   │   ├── ee64a828.0 -> /etc/ca-certificates/extracted/cadir/Comodo_AAA_Services_root.pem
+│   │   │   ├── eed8c118.0 -> /etc/ca-certificates/extracted/cadir/COMODO_ECC_Certification_Authority.pem
+│   │   │   ├── ef954a4e.0 -> /etc/ca-certificates/extracted/cadir/IdenTrust_Commercial_Root_CA_1.pem
+│   │   │   ├── emSign_ECC_Root_CA_-_C3.pem
+│   │   │   ├── emSign_ECC_Root_CA_-_G3.pem
+│   │   │   ├── emSign_Root_CA_-_C1.pem
+│   │   │   ├── emSign_Root_CA_-_G1.pem
+│   │   │   ├── Entrust.net_Premium_2048_Secure_Server_CA.pem
+│   │   │   ├── Entrust_Root_Certification_Authority_-_EC1.pem
+│   │   │   ├── Entrust_Root_Certification_Authority_-_G2.pem
+│   │   │   ├── Entrust_Root_Certification_Authority_-_G4.pem
+│   │   │   ├── Entrust_Root_Certification_Authority.pem
+│   │   │   ├── ePKI_Root_Certification_Authority.pem
+│   │   │   ├── e-Szigno_Root_CA_2017.pem
+│   │   │   ├── E-Tugra_Certification_Authority.pem
+│   │   │   ├── E-Tugra_Global_Root_CA_ECC_v3.pem
+│   │   │   ├── E-Tugra_Global_Root_CA_RSA_v3.pem
+│   │   │   ├── f013ecaf.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R1.pem
+│   │   │   ├── f058632f.0 -> /etc/ca-certificates/extracted/cadir/Telia_Root_CA_v2.pem
+│   │   │   ├── f081611a.0 -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Class_2_CA.pem
+│   │   │   ├── f0c70a8d.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_ECC.pem
+│   │   │   ├── f0cd152c.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G4.pem
+│   │   │   ├── f249de83.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_Certification_Authority.pem
+│   │   │   ├── f30dd6ad.0 -> /etc/ca-certificates/extracted/cadir/USERTrust_ECC_Certification_Authority.pem
+│   │   │   ├── f3377b1b.0 -> /etc/ca-certificates/extracted/cadir/Security_Communication_Root_CA.pem
+│   │   │   ├── f387163d.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Class_2_CA.pem
+│   │   │   ├── f39fc864.0 -> /etc/ca-certificates/extracted/cadir/SecureTrust_CA.pem
+│   │   │   ├── f459871d.0 -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_G1.pem
+│   │   │   ├── f51bb24c.0 -> /etc/ca-certificates/extracted/cadir/Certigna_Root_CA.pem
+│   │   │   ├── f8fc53da.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Root_CA.pem
+│   │   │   ├── fa5da96b.0 -> /etc/ca-certificates/extracted/cadir/GLOBALTRUST_2020.pem
+│   │   │   ├── fb5fa911.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_2.pem
+│   │   │   ├── fc5a8f99.0 -> /etc/ca-certificates/extracted/cadir/USERTrust_RSA_Certification_Authority.pem
+│   │   │   ├── fd08c599.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_1.pem
+│   │   │   ├── fd64f3fc.0 -> /etc/ca-certificates/extracted/cadir/TunTrust_Root_CA.pem
+│   │   │   ├── fde84897.0 -> /etc/ca-certificates/extracted/cadir/Certigna.pem
+│   │   │   ├── fe8a2cd8.0 -> /etc/ca-certificates/extracted/cadir/SZAFIR_ROOT_CA2.pem
+│   │   │   ├── feffd413.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_E46.pem
+│   │   │   ├── ff34af3f.0 -> /etc/ca-certificates/extracted/cadir/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+│   │   │   ├── GDCA_TrustAUTH_R5_ROOT.pem
+│   │   │   ├── GlobalSign_ECC_Root_CA_-_R4.pem
+│   │   │   ├── GlobalSign_ECC_Root_CA_-_R5.pem
+│   │   │   ├── GlobalSign_Root_CA.pem
+│   │   │   ├── GlobalSign_Root_CA_-_R3.pem
+│   │   │   ├── GlobalSign_Root_CA_-_R6.pem
+│   │   │   ├── GlobalSign_Root_E46.pem
+│   │   │   ├── GlobalSign_Root_R46.pem
+│   │   │   ├── GLOBALTRUST_2020.pem
+│   │   │   ├── Go_Daddy_Class_2_CA.pem
+│   │   │   ├── Go_Daddy_Root_Certificate_Authority_-_G2.pem
+│   │   │   ├── GTS_Root_R1.pem
+│   │   │   ├── GTS_Root_R2.pem
+│   │   │   ├── GTS_Root_R3.pem
+│   │   │   ├── GTS_Root_R4.pem
+│   │   │   ├── HARICA_TLS_ECC_Root_CA_2021.pem
+│   │   │   ├── HARICA_TLS_RSA_Root_CA_2021.pem
+│   │   │   ├── Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+│   │   │   ├── Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+│   │   │   ├── HiPKI_Root_CA_-_G1.pem
+│   │   │   ├── Hongkong_Post_Root_CA_1.pem
+│   │   │   ├── Hongkong_Post_Root_CA_3.pem
+│   │   │   ├── IdenTrust_Commercial_Root_CA_1.pem
+│   │   │   ├── IdenTrust_Public_Sector_Root_CA_1.pem
+│   │   │   ├── ISRG_Root_X1.pem
+│   │   │   ├── ISRG_Root_X2.pem
+│   │   │   ├── Izenpe.com.pem
+│   │   │   ├── Microsec_e-Szigno_Root_CA_2009.pem
+│   │   │   ├── Microsoft_ECC_Root_Certificate_Authority_2017.pem
+│   │   │   ├── Microsoft_RSA_Root_Certificate_Authority_2017.pem
+│   │   │   ├── NAVER_Global_Root_Certification_Authority.pem
+│   │   │   ├── NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
+│   │   │   ├── Network_Solutions_Certificate_Authority.pem
+│   │   │   ├── OISTE_WISeKey_Global_Root_GB_CA.pem
+│   │   │   ├── OISTE_WISeKey_Global_Root_GC_CA.pem
+│   │   │   ├── QuoVadis_Root_CA_1_G3.pem
+│   │   │   ├── QuoVadis_Root_CA_2_G3.pem
+│   │   │   ├── QuoVadis_Root_CA_2.pem
+│   │   │   ├── QuoVadis_Root_CA_3_G3.pem
+│   │   │   ├── QuoVadis_Root_CA_3.pem
+│   │   │   ├── Secure_Global_CA.pem
+│   │   │   ├── SecureSign_RootCA11.pem
+│   │   │   ├── SecureTrust_CA.pem
+│   │   │   ├── Security_Communication_RootCA2.pem
+│   │   │   ├── Security_Communication_Root_CA.pem
+│   │   │   ├── SSL.com_EV_Root_Certification_Authority_ECC.pem
+│   │   │   ├── SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+│   │   │   ├── SSL.com_Root_Certification_Authority_ECC.pem
+│   │   │   ├── SSL.com_Root_Certification_Authority_RSA.pem
+│   │   │   ├── Staat_der_Nederlanden_EV_Root_CA.pem
+│   │   │   ├── Starfield_Class_2_CA.pem
+│   │   │   ├── Starfield_Root_Certificate_Authority_-_G2.pem
+│   │   │   ├── Starfield_Services_Root_Certificate_Authority_-_G2.pem
+│   │   │   ├── SwissSign_Gold_CA_-_G2.pem
+│   │   │   ├── SwissSign_Silver_CA_-_G2.pem
+│   │   │   ├── SZAFIR_ROOT_CA2.pem
+│   │   │   ├── Telia_Root_CA_v2.pem
+│   │   │   ├── TeliaSonera_Root_CA_v1.pem
+│   │   │   ├── TrustCor_ECA-1.pem
+│   │   │   ├── TrustCor_RootCert_CA-1.pem
+│   │   │   ├── TrustCor_RootCert_CA-2.pem
+│   │   │   ├── Trustwave_Global_Certification_Authority.pem
+│   │   │   ├── Trustwave_Global_ECC_P256_Certification_Authority.pem
+│   │   │   ├── Trustwave_Global_ECC_P384_Certification_Authority.pem
+│   │   │   ├── T-TeleSec_GlobalRoot_Class_2.pem
+│   │   │   ├── T-TeleSec_GlobalRoot_Class_3.pem
+│   │   │   ├── TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+│   │   │   ├── TunTrust_Root_CA.pem
+│   │   │   ├── TWCA_Global_Root_CA.pem
+│   │   │   ├── TWCA_Root_Certification_Authority.pem
+│   │   │   ├── UCA_Extended_Validation_Root.pem
+│   │   │   ├── UCA_Global_G2_Root.pem
+│   │   │   ├── USERTrust_ECC_Certification_Authority.pem
+│   │   │   ├── USERTrust_RSA_Certification_Authority.pem
+│   │   │   ├── vTrus_ECC_Root_CA.pem
+│   │   │   ├── vTrus_Root_CA.pem
+│   │   │   └── XRamp_Global_CA_Root.pem
+│   │   ├── edk2-cacerts.bin
+│   │   ├── email-ca-bundle.pem
+│   │   ├── objsign-ca-bundle.pem
+│   │   └── tls-ca-bundle.pem
+│   └── trust-source
+│       ├── anchors
+│       └── blocklist
+├── cifs-utils
+│   └── idmap-plugin -> /usr/lib/cifs-utils/idmapwb.so
+├── cni  [error opening dir]
+├── conf.d
+│   ├── fluidsynth
+│   ├── sensord
+│   └── spice-webdavd
+├── crypttab
+├── cups
+│   ├── classes.conf
+│   ├── cups-browsed.conf
+│   ├── cupsd.conf
+│   ├── cupsd.conf.default
+│   ├── cups-files.conf
+│   ├── cups-files.conf.default
+│   ├── ppd
+│   ├── printers.conf
+│   ├── snmp.conf
+│   ├── snmp.conf.default
+│   ├── ssl  [error opening dir]
+│   ├── subscriptions.conf
+│   └── subscriptions.conf.O
+├── cupshelpers
+│   └── preferreddrivers.xml
+├── daxctl.conf.d
+│   └── daxctl.example.conf
+├── dconf
+│   └── db
+├── default
+│   ├── grub
+│   └── useradd
+├── depmod.d
+├── dhcpcd.conf
+├── dkms
+│   ├── framework.conf
+│   └── framework.conf.d
+├── dnsmasq.conf
+├── docker
+│   └── key.json
+├── e2scrub.conf
+├── ebtables.conf
+├── environment
+├── ethertypes
+├── fish
+│   ├── completions
+│   ├── conf.d
+│   ├── config.fish
+│   └── functions
+├── fonts
+│   ├── conf.d
+│   │   ├── 10-hinting-slight.conf -> /usr/share/fontconfig/conf.avail/10-hinting-slight.conf
+│   │   ├── 10-scale-bitmap-fonts.conf -> /usr/share/fontconfig/conf.avail/10-scale-bitmap-fonts.conf
+│   │   ├── 11-lcdfilter-default.conf -> /usr/share/fontconfig/conf.avail/11-lcdfilter-default.conf
+│   │   ├── 20-unhint-small-vera.conf -> /usr/share/fontconfig/conf.avail/20-unhint-small-vera.conf
+│   │   ├── 30-metric-aliases.conf -> /usr/share/fontconfig/conf.avail/30-metric-aliases.conf
+│   │   ├── 30-win32-aliases.conf -> /usr/share/fontconfig/conf.avail/30-win32-aliases.conf
+│   │   ├── 40-nonlatin.conf -> /usr/share/fontconfig/conf.avail/40-nonlatin.conf
+│   │   ├── 45-generic.conf -> /usr/share/fontconfig/conf.avail/45-generic.conf
+│   │   ├── 45-latin.conf -> /usr/share/fontconfig/conf.avail/45-latin.conf
+│   │   ├── 48-spacing.conf -> /usr/share/fontconfig/conf.avail/48-spacing.conf
+│   │   ├── 49-sansserif.conf -> /usr/share/fontconfig/conf.avail/49-sansserif.conf
+│   │   ├── 50-user.conf -> /usr/share/fontconfig/conf.avail/50-user.conf
+│   │   ├── 51-local.conf -> /usr/share/fontconfig/conf.avail/51-local.conf
+│   │   ├── 60-generic.conf -> /usr/share/fontconfig/conf.avail/60-generic.conf
+│   │   ├── 60-latin.conf -> /usr/share/fontconfig/conf.avail/60-latin.conf
+│   │   ├── 65-fonts-persian.conf -> /usr/share/fontconfig/conf.avail/65-fonts-persian.conf
+│   │   ├── 65-nonlatin.conf -> /usr/share/fontconfig/conf.avail/65-nonlatin.conf
+│   │   ├── 69-unifont.conf -> /usr/share/fontconfig/conf.avail/69-unifont.conf
+│   │   ├── 69-urw-bookman.conf -> /usr/share/fontconfig/conf.avail/69-urw-bookman.conf
+│   │   ├── 69-urw-c059.conf -> /usr/share/fontconfig/conf.avail/69-urw-c059.conf
+│   │   ├── 69-urw-d050000l.conf -> /usr/share/fontconfig/conf.avail/69-urw-d050000l.conf
+│   │   ├── 69-urw-fallback-backwards.conf -> /usr/share/fontconfig/conf.avail/69-urw-fallback-backwards.conf
+│   │   ├── 69-urw-fallback-generics.conf -> /usr/share/fontconfig/conf.avail/69-urw-fallback-generics.conf
+│   │   ├── 69-urw-fallback-specifics.conf -> /usr/share/fontconfig/conf.avail/69-urw-fallback-specifics.conf
+│   │   ├── 69-urw-gothic.conf -> /usr/share/fontconfig/conf.avail/69-urw-gothic.conf
+│   │   ├── 69-urw-nimbus-mono-ps.conf -> /usr/share/fontconfig/conf.avail/69-urw-nimbus-mono-ps.conf
+│   │   ├── 69-urw-nimbus-roman.conf -> /usr/share/fontconfig/conf.avail/69-urw-nimbus-roman.conf
+│   │   ├── 69-urw-nimbus-sans.conf -> /usr/share/fontconfig/conf.avail/69-urw-nimbus-sans.conf
+│   │   ├── 69-urw-p052.conf -> /usr/share/fontconfig/conf.avail/69-urw-p052.conf
+│   │   ├── 69-urw-standard-symbols-ps.conf -> /usr/share/fontconfig/conf.avail/69-urw-standard-symbols-ps.conf
+│   │   ├── 69-urw-z003.conf -> /usr/share/fontconfig/conf.avail/69-urw-z003.conf
+│   │   ├── 80-delicious.conf -> /usr/share/fontconfig/conf.avail/80-delicious.conf
+│   │   ├── 90-synthetic.conf -> /usr/share/fontconfig/conf.avail/90-synthetic.conf
+│   │   └── README
+│   ├── fonts.conf
+│   └── fonts.conf.pacnew
+├── fstab
+├── fuse.conf
+├── gai.conf
+├── gdb
+│   └── gdbinit
+├── gimp
+│   └── 2.0
+│       ├── controllerrc
+│       ├── gimprc
+│       ├── gtkrc
+│       ├── menurc
+│       ├── sessionrc
+│       ├── templaterc
+│       ├── toolrc
+│       └── unitrc
+├── group
+├── group-
+├── grub.d
+│   ├── 00_header
+│   ├── 10_linux
+│   ├── 20_linux_xen
+│   ├── 30_os-prober
+│   ├── 30_uefi-firmware
+│   ├── 40_custom
+│   ├── 41_custom
+│   └── README
+├── gshadow
+├── gshadow-
+├── gtk-2.0
+│   └── im-multipress.conf
+├── gtk-3.0
+│   └── im-multipress.conf
+├── healthd.conf
+├── host.conf
+├── hostname
+├── hosts
+├── i3
+│   ├── config
+│   └── config.keycodes
+├── ifplugd
+│   └── netctl.action
+├── ImageMagick-7
+│   ├── colors.xml
+│   ├── delegates.xml
+│   ├── log.xml
+│   ├── mime.xml
+│   ├── policy.xml
+│   ├── quantization-table.xml
+│   ├── thresholds.xml
+│   ├── type-dejavu.xml
+│   ├── type-ghostscript.xml
+│   └── type.xml
+├── initcpio
+│   ├── hooks
+│   └── install
+├── inputrc
+├── iproute2
+│   ├── bpf_pinning
+│   ├── ematch_map
+│   ├── group
+│   ├── nl_protos
+│   ├── rt_dsfield
+│   ├── rt_protos
+│   ├── rt_realms
+│   ├── rt_scopes
+│   └── rt_tables
+├── ipsec.conf
+├── ipsec.conf.original
+├── ipsec.d
+│   ├── aacerts
+│   ├── acerts
+│   ├── cacerts
+│   │   ├── ca-cert.pem
+│   │   └── ca.cert.pem
+│   ├── certs
+│   │   └── server-cert.pem
+│   ├── crls
+│   ├── ocspcerts
+│   ├── private  [error opening dir]
+│   └── reqs
+├── ipsec.secrets
+├── iptables
+│   ├── empty.rules -> /usr/share/iptables/empty.rules
+│   ├── ip6tables.rules
+│   ├── iptables.rules
+│   └── simple_firewall.rules -> /usr/share/iptables/simple_firewall.rules
+├── issue
+├── jack
+│   └── example.conf
+├── java11-openjdk
+│   ├── logging.properties
+│   ├── management
+│   │   ├── jmxremote.access
+│   │   ├── jmxremote.password.template
+│   │   └── management.properties
+│   ├── net.properties
+│   ├── security
+│   │   ├── java.policy
+│   │   ├── java.security
+│   │   └── policy
+│   │       ├── limited
+│   │       │   ├── default_local.policy
+│   │       │   ├── default_US_export.policy
+│   │       │   └── exempt_local.policy
+│   │       ├── README.txt
+│   │       └── unlimited
+│   │           ├── default_local.policy
+│   │           └── default_US_export.policy
+│   └── sound.properties
+├── java-8-openjdk
+│   ├── amd64
+│   │   └── jvm.cfg
+│   ├── calendars.properties
+│   ├── content-types.properties
+│   ├── flavormap.properties
+│   ├── images
+│   │   └── cursors
+│   │       └── cursors.properties
+│   ├── logging.properties
+│   ├── management
+│   │   ├── jmxremote.access
+│   │   ├── jmxremote.password
+│   │   ├── management.properties
+│   │   └── snmp.acl
+│   ├── net.properties
+│   ├── psfontj2d.properties
+│   ├── psfont.properties.ja
+│   ├── security
+│   │   ├── java.policy
+│   │   └── java.security
+│   └── sound.properties
+├── java-openjdk
+│   ├── logging.properties
+│   ├── management
+│   │   ├── jmxremote.access
+│   │   ├── jmxremote.password.template
+│   │   └── management.properties
+│   ├── net.properties
+│   ├── sdp
+│   │   └── sdp.conf.template
+│   ├── security
+│   │   ├── java.policy
+│   │   ├── java.security
+│   │   └── policy
+│   │       ├── limited
+│   │       │   ├── default_local.policy
+│   │       │   ├── default_US_export.policy
+│   │       │   └── exempt_local.policy
+│   │       ├── README.txt
+│   │       └── unlimited
+│   │           ├── default_local.policy
+│   │           └── default_US_export.policy
+│   └── sound.properties
+├── kernel
+│   └── install.d
+├── keyutils
+├── krb5.conf
+├── ld.so.cache
+├── ld.so.conf
+├── ld.so.conf.d
+│   ├── cuda.conf
+│   ├── fakeroot.conf
+│   └── lib32-glibc.conf
+├── libao.conf
+├── libaudit.conf
+├── libblockdev
+│   └── conf.d
+│       └── 00-default.cfg
+├── libguestfs-tools.conf
+├── libinput
+├── libnl
+│   ├── classid
+│   └── pktloc
+├── libpaper.d
+├── libreoffice
+│   ├── bootstraprc
+│   ├── psprint.conf
+│   └── sofficerc
+├── libva.conf
+├── libvirt
+│   ├── libvirt-admin.conf
+│   ├── libvirt.conf
+│   ├── libvirtd.conf
+│   ├── libvirtd.conf.pacnew
+│   ├── lxc
+│   │   └── autostart
+│   ├── lxc.conf
+│   ├── nwfilter
+│   │   ├── allow-arp.xml
+│   │   ├── allow-dhcp-server.xml
+│   │   ├── allow-dhcp-server.xml.pacnew
+│   │   ├── allow-dhcpv6-server.xml
+│   │   ├── allow-dhcpv6.xml
+│   │   ├── allow-dhcp.xml
+│   │   ├── allow-dhcp.xml.pacnew
+│   │   ├── allow-incoming-ipv4.xml
+│   │   ├── allow-incoming-ipv6.xml
+│   │   ├── allow-ipv4.xml
+│   │   ├── allow-ipv6.xml
+│   │   ├── clean-traffic-gateway.xml
+│   │   ├── clean-traffic.xml
+│   │   ├── no-arp-ip-spoofing.xml
+│   │   ├── no-arp-mac-spoofing.xml
+│   │   ├── no-arp-spoofing.xml
+│   │   ├── no-ip-multicast.xml
+│   │   ├── no-ip-spoofing.xml
+│   │   ├── no-ipv6-multicast.xml
+│   │   ├── no-ipv6-spoofing.xml
+│   │   ├── no-mac-broadcast.xml
+│   │   ├── no-mac-spoofing.xml
+│   │   ├── no-other-l2-traffic.xml
+│   │   ├── no-other-rarp-traffic.xml
+│   │   ├── qemu-announce-self-rarp.xml
+│   │   └── qemu-announce-self.xml
+│   ├── qemu
+│   │   ├── autostart
+│   │   ├── minikube.xml
+│   │   └── networks
+│   │       ├── autostart
+│   │       │   ├── default.xml -> /etc/libvirt/qemu/networks/default.xml
+│   │       │   └── minikube-net.xml -> /etc/libvirt/qemu/networks/minikube-net.xml
+│   │       ├── default.xml
+│   │       ├── default.xml.pacnew
+│   │       └── minikube-net.xml
+│   ├── qemu.conf
+│   ├── qemu-lockd.conf
+│   ├── secrets  [error opening dir]
+│   ├── storage
+│   │   └── autostart
+│   ├── virtchd.conf
+│   ├── virtinterfaced.conf
+│   ├── virtlockd.conf
+│   ├── virtlogd.conf
+│   ├── virt-login-shell.conf
+│   ├── virtlxcd.conf
+│   ├── virtnetworkd.conf
+│   ├── virtnodedevd.conf
+│   ├── virtnwfilterd.conf
+│   ├── virtproxyd.conf
+│   ├── virtqemud.conf
+│   ├── virtsecretd.conf
+│   ├── virtstoraged.conf
+│   └── virtvboxd.conf
+├── lightdm
+│   └── lightdm.conf.d
+│       └── 20-optimus-manager.conf
+├── locale.conf
+├── locale.gen
+├── locale.gen.pacnew
+├── localtime -> /usr/share/zoneinfo/Europe/Moscow
+├── login.defs
+├── logrotate.conf
+├── logrotate.d
+│   ├── bitcoind
+│   ├── cups
+│   ├── libvirtd
+│   ├── libvirtd.lxc
+│   └── libvirtd.qemu
+├── lsb-release
+├── lvm
+│   ├── archive
+│   ├── backup
+│   ├── lvm.conf
+│   ├── lvmlocal.conf
+│   └── profile
+│       ├── cache-mq.profile
+│       ├── cache-smq.profile
+│       ├── command_profile_template.profile
+│       ├── lvmdbusd.profile
+│       ├── metadata_profile_template.profile
+│       ├── thin-generic.profile
+│       ├── thin-performance.profile
+│       └── vdo-small.profile
+├── lynx.cfg
+├── lynx.lss
+├── machine-id
+├── mailcap
+├── mail.rc
+├── makepkg.conf
+├── man_db.conf
+├── mdadm.conf
+├── mime.types
+├── mke2fs.conf
+├── mkinitcpio.conf
+├── mkinitcpio.d
+│   └── linux.preset
+├── modprobe.d
+│   ├── alsa-base.conf
+│   ├── droidcam.conf
+│   └── kvm-intel.conf
+├── modules-load.d
+│   └── droidcam.conf
+├── monerod.conf
+├── mpd.conf
+├── mpv
+│   └── encoding-profiles.conf
+├── mtab -> /proc/190983/mounts
+├── mtools.conf
+├── multipath  [error opening dir]
+├── my.cnf
+├── my.cnf.d
+│   ├── client.cnf
+│   ├── enable_encryption.preset
+│   ├── hashicorp_key_management.cnf
+│   ├── mysql-clients.cnf
+│   ├── provider_bzip2.cnf
+│   ├── provider_lz4.cnf
+│   ├── provider_lzma.cnf
+│   ├── s3.cnf
+│   ├── server.cnf
+│   └── spider.cnf
+├── named.conf
+├── nanorc
+├── ndctl
+│   └── keys
+│       └── keys.readme
+├── ndctl.conf.d
+│   ├── monitor.conf
+│   └── ndctl.conf
+├── netconfig
+├── netctl
+│   ├── examples
+│   │   ├── bonding
+│   │   ├── bridge
+│   │   ├── ethernet-custom
+│   │   ├── ethernet-dhcp
+│   │   ├── ethernet-static
+│   │   ├── macvlan-dhcp
+│   │   ├── macvlan-static
+│   │   ├── mobile_ppp
+│   │   ├── openvswitch
+│   │   ├── pppoe
+│   │   ├── tunnel
+│   │   ├── tuntap
+│   │   ├── vlan-dhcp
+│   │   ├── vlan-static
+│   │   ├── wireguard
+│   │   ├── wireless-open
+│   │   ├── wireless-wep
+│   │   ├── wireless-wpa
+│   │   ├── wireless-wpa-config
+│   │   ├── wireless-wpa-configsection
+│   │   └── wireless-wpa-static
+│   ├── hooks
+│   └── interfaces
+├── nginx
+│   └── mime.types
+├── nilfs_cleanerd.conf
+├── nscd.conf
+├── nsswitch.conf
+├── ntp.conf
+├── OpenCL
+│   └── vendors
+│       ├── mesa.icd
+│       └── nvidia.icd
+├── openldap
+│   └── ldap.conf
+├── openmpi
+│   ├── openmpi-default-hostfile
+│   ├── openmpi-mca-params.conf
+│   └── openmpi-totalview.tcl
+├── openpmix
+│   └── pmix-mca-params.conf
+├── optimus-manager
+│   ├── nvidia-disable.sh
+│   ├── nvidia-enable.sh
+│   ├── xorg
+│   │   ├── hybrid-mode
+│   │   │   ├── integrated-gpu.conf
+│   │   │   └── nvidia-gpu.conf
+│   │   ├── integrated-mode
+│   │   │   └── integrated-gpu.conf
+│   │   └── nvidia-mode
+│   │       ├── integrated-gpu.conf
+│   │       └── nvidia-gpu.conf
+│   ├── xsetup-hybrid.sh
+│   ├── xsetup-integrated.sh
+│   └── xsetup-nvidia.sh
+├── os-release -> /usr/lib/os-release
+├── pacman.conf
+├── pacman.conf.pacnew
+├── pacman.d
+│   ├── gnupg
+│   │   ├── crls.d  [error opening dir]
+│   │   ├── gpg-agent.conf
+│   │   ├── gpg.conf
+│   │   ├── openpgp-revocs.d  [error opening dir]
+│   │   ├── private-keys-v1.d  [error opening dir]
+│   │   ├── pubring.gpg
+│   │   ├── pubring.gpg~
+│   │   ├── secring.gpg
+│   │   ├── tofu.db
+│   │   └── trustdb.gpg
+│   ├── mirrorlist
+│   ├── mirrorlist.backup
+│   └── mirrorlist.pacnew
+├── pam.d
+│   ├── chage
+│   ├── chfn
+│   ├── chgpasswd
+│   ├── chpasswd
+│   ├── chsh
+│   ├── cups
+│   ├── groupadd
+│   ├── groupdel
+│   ├── groupmems
+│   ├── groupmod
+│   ├── login
+│   ├── newusers
+│   ├── other
+│   ├── passwd
+│   ├── polkit-1
+│   ├── rlogin
+│   ├── rsh
+│   ├── runuser
+│   ├── runuser-l
+│   ├── shadow
+│   ├── sshd
+│   ├── su
+│   ├── sudo
+│   ├── su-l
+│   ├── system-auth
+│   ├── systemd-user
+│   ├── system-local-login
+│   ├── system-login
+│   ├── system-remote-login
+│   ├── system-services
+│   ├── useradd
+│   ├── userdel
+│   ├── usermod
+│   └── vlock
+├── papersize
+├── passwd
+├── passwd-
+├── passwd.OLD
+├── php
+│   ├── conf.d
+│   └── php.ini
+├── php.d
+│   └── guestfs_php.ini
+├── pinentry
+│   └── preexec
+├── pipewire
+│   ├── client.conf.d
+│   ├── client-rt.conf.d
+│   ├── minimal.conf.d
+│   ├── pipewire.conf.d
+│   ├── pipewire.conf.pacnew
+│   ├── pipewire.conf.pacsave
+│   └── pipewire-pulse.conf.d
+├── pkcs11
+│   └── pkcs11.conf.example
+├── polkit-1
+│   └── rules.d  [error opening dir]
+├── polybar
+│   └── config.ini
+├── printcap
+├── profile
+├── profile.d
+│   ├── cuda.sh
+│   ├── dotnet.sh
+│   ├── freetype2.sh
+│   ├── gawk.csh
+│   ├── gawk.sh
+│   ├── gpm.sh
+│   ├── jre.csh
+│   ├── jre.sh
+│   ├── libreoffice-fresh.csh
+│   ├── libreoffice-fresh.sh
+│   ├── locale.sh
+│   ├── mozilla-common.csh
+│   ├── mozilla-common.sh
+│   ├── opencascade.sh
+│   ├── perlbin.csh
+│   ├── perlbin.sh
+│   ├── vte.csh
+│   └── vte.sh
+├── protocols
+├── pulse
+│   ├── client.conf
+│   ├── daemon.conf
+│   ├── default.pa
+│   └── system.pa
+├── qemu
+│   └── bridge.conf
+├── rc_keymaps
+├── rc_maps.cfg
+├── request-key.conf
+├── request-key.d
+│   ├── cifs.idmap.conf
+│   └── cifs.spnego.conf
+├── resolv.conf
+├── resolv.conf.bak
+├── resolvconf.conf
+├── rhashrc
+├── rpc
+├── rsyncd.conf
+├── sasl2
+│   ├── libvirt.conf
+│   └── qemu.conf
+├── sddm.conf.d
+│   └── 20-optimus-manager.conf
+├── securetty
+├── security
+│   ├── access.conf
+│   ├── faillock.conf
+│   ├── group.conf
+│   ├── limits.conf
+│   ├── namespace.conf
+│   ├── namespace.init
+│   ├── pam_env.conf
+│   ├── time.conf
+│   └── user_map.conf
+├── sensors3.conf
+├── sensors.d
+├── services
+├── shadow
+├── shadow-
+├── shadow.pacnew
+├── shells
+├── skel
+├── ssh
+│   ├── moduli
+│   ├── ssh_config
+│   └── sshd_config
+├── ssl
+│   ├── cert.pem -> /etc/ca-certificates/extracted/tls-ca-bundle.pem
+│   ├── certs
+│   │   ├── 002c0b4f.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_R46.pem
+│   │   ├── 01419da9.0 -> /etc/ca-certificates/extracted/cadir/Microsoft_ECC_Root_Certificate_Authority_2017.pem
+│   │   ├── 02265526.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G2.pem
+│   │   ├── 03179a64.0 -> /etc/ca-certificates/extracted/cadir/Staat_der_Nederlanden_EV_Root_CA.pem
+│   │   ├── 04f60c28.0 -> /etc/ca-certificates/extracted/cadir/USERTrust_ECC_Certification_Authority.pem
+│   │   ├── 062cdee6.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R3.pem
+│   │   ├── 064e0aa9.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2_G3.pem
+│   │   ├── 06dc52d5.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+│   │   ├── 09789157.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Services_Root_Certificate_Authority_-_G2.pem
+│   │   ├── 0a775a30.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R3.pem
+│   │   ├── 0b1b94ef.0 -> /etc/ca-certificates/extracted/cadir/CFCA_EV_ROOT.pem
+│   │   ├── 0b9bc432.0 -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X2.pem
+│   │   ├── 0bf05006.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_ECC.pem
+│   │   ├── 0d69c7e1.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R4.pem
+│   │   ├── 0f5dc4f3.0 -> /etc/ca-certificates/extracted/cadir/UCA_Extended_Validation_Root.pem
+│   │   ├── 0f6fa695.0 -> /etc/ca-certificates/extracted/cadir/GDCA_TrustAUTH_R5_ROOT.pem
+│   │   ├── 1001acf7.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R1.pem
+│   │   ├── 10531352.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Services_Root_Certificate_Authority_-_G2.pem
+│   │   ├── 106f3e4d.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_EC1.pem
+│   │   ├── 14bc7599.0 -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_G3.pem
+│   │   ├── 18856ac4.0 -> /etc/ca-certificates/extracted/cadir/SecureSign_RootCA11.pem
+│   │   ├── 1ae85e5e.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P256_Certification_Authority.pem
+│   │   ├── 1b0f7e5c.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_R46.pem
+│   │   ├── 1d3472b9.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R5.pem
+│   │   ├── 1df5a75f.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_2009.pem
+│   │   ├── 1e08bfd1.0 -> /etc/ca-certificates/extracted/cadir/IdenTrust_Public_Sector_Root_CA_1.pem
+│   │   ├── 1e09d511.0 -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_2.pem
+│   │   ├── 1e1eab7c.0 -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_3.pem
+│   │   ├── 1e8e7201.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R3.pem
+│   │   ├── 1ec40989.0 -> /etc/ca-certificates/extracted/cadir/GLOBALTRUST_2020.pem
+│   │   ├── 1f58a078.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2_G3.pem
+│   │   ├── 219d9499.0 -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Class_2_CA.pem
+│   │   ├── 23f4c490.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Class_2_CA.pem
+│   │   ├── 244b5494.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_High_Assurance_EV_Root_CA.pem
+│   │   ├── 252252d2.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_ECC_P384_Root_G5.pem
+│   │   ├── 2923b3f9.0 -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_G1.pem
+│   │   ├── 2add47b6.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R5.pem
+│   │   ├── 2ae6433e.0 -> /etc/ca-certificates/extracted/cadir/CA_Disig_Root_R2.pem
+│   │   ├── 2b349938.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Commercial.pem
+│   │   ├── 2d9dafe4.0 -> /etc/ca-certificates/extracted/cadir/Buypass_Class_3_Root_CA.pem
+│   │   ├── 2fa87019.0 -> /etc/ca-certificates/extracted/cadir/Network_Solutions_Certificate_Authority.pem
+│   │   ├── 302904dd.0 -> /etc/ca-certificates/extracted/cadir/Certigna_Root_CA.pem
+│   │   ├── 304d27c3.0 -> /etc/ca-certificates/extracted/cadir/UCA_Global_G2_Root.pem
+│   │   ├── 31188b5e.0 -> /etc/ca-certificates/extracted/cadir/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+│   │   ├── 32888f65.0 -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+│   │   ├── 33ee480d.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_RSA.pem
+│   │   ├── 349f2832.0 -> /etc/ca-certificates/extracted/cadir/EC-ACC.pem
+│   │   ├── 35105088.0 -> /etc/ca-certificates/extracted/cadir/USERTrust_RSA_Certification_Authority.pem
+│   │   ├── 3513523f.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_CA.pem
+│   │   ├── 399e7759.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_CA.pem
+│   │   ├── 3ad48a91.0 -> /etc/ca-certificates/extracted/cadir/Baltimore_CyberTrust_Root.pem
+│   │   ├── 3bde41ac.0 -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+│   │   ├── 3bde41ac.1 -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.1.pem
+│   │   ├── 3c6676aa.0 -> /etc/ca-certificates/extracted/cadir/Staat_der_Nederlanden_EV_Root_CA.pem
+│   │   ├── 3c860d51.0 -> /etc/ca-certificates/extracted/cadir/SwissSign_Gold_CA_-_G2.pem
+│   │   ├── 3c899c73.0 -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GC_CA.pem
+│   │   ├── 3c9a4d3b.0 -> /etc/ca-certificates/extracted/cadir/ACCVRAIZ1.pem
+│   │   ├── 3e44d2f7.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-2.pem
+│   │   ├── 3e45d192.0 -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_1.pem
+│   │   ├── 3e7271e8.0 -> /etc/ca-certificates/extracted/cadir/Entrust.net_Premium_2048_Secure_Server_CA.pem
+│   │   ├── 3fb36b73.0 -> /etc/ca-certificates/extracted/cadir/NAVER_Global_Root_Certification_Authority.pem
+│   │   ├── 40193066.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA_2.pem
+│   │   ├── 4042bcee.0 -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X1.pem
+│   │   ├── 40547a79.0 -> /etc/ca-certificates/extracted/cadir/COMODO_Certification_Authority.pem
+│   │   ├── 406c9bb1.0 -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_C1.pem
+│   │   ├── 40c7e66e.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_RSA_v3.pem
+│   │   ├── 41a3f684.0 -> /etc/ca-certificates/extracted/cadir/Certum_EC-384_CA.pem
+│   │   ├── 4304c5e5.0 -> /etc/ca-certificates/extracted/cadir/Network_Solutions_Certificate_Authority.pem
+│   │   ├── 455f1b52.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G2.pem
+│   │   ├── 48a195d8.0 -> /etc/ca-certificates/extracted/cadir/Izenpe.com.pem
+│   │   ├── 48bec511.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA.pem
+│   │   ├── 4b718d9b.0 -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_C3.pem
+│   │   ├── 4be590e0.0 -> /etc/ca-certificates/extracted/cadir/IdenTrust_Public_Sector_Root_CA_1.pem
+│   │   ├── 4bfab552.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Root_Certificate_Authority_-_G2.pem
+│   │   ├── 4c3982f2.0 -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_ECC_Root_CA_2021.pem
+│   │   ├── 4f316efb.0 -> /etc/ca-certificates/extracted/cadir/SwissSign_Gold_CA_-_G2.pem
+│   │   ├── 5046c355.0 -> /etc/ca-certificates/extracted/cadir/SwissSign_Silver_CA_-_G2.pem
+│   │   ├── 5273a94c.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Certification_Authority.pem
+│   │   ├── 52b525c7.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_1_G3.pem
+│   │   ├── 53a1b57a.0 -> /etc/ca-certificates/extracted/cadir/HiPKI_Root_CA_-_G1.pem
+│   │   ├── 5443e9e3.0 -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_3.pem
+│   │   ├── 54657681.0 -> /etc/ca-certificates/extracted/cadir/Buypass_Class_2_Root_CA.pem
+│   │   ├── 57bcb2da.0 -> /etc/ca-certificates/extracted/cadir/SwissSign_Silver_CA_-_G2.pem
+│   │   ├── 583d0756.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+│   │   ├── 5931b5bc.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_EV_Root_CA_1_2020.pem
+│   │   ├── 5a3f0ff8.0 -> /etc/ca-certificates/extracted/cadir/COMODO_Certification_Authority.pem
+│   │   ├── 5a7722fb.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_ECC_v3.pem
+│   │   ├── 5acf816d.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R4.pem
+│   │   ├── 5ad8a5d6.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA.pem
+│   │   ├── 5cd81ad7.0 -> /etc/ca-certificates/extracted/cadir/TeliaSonera_Root_CA_v1.pem
+│   │   ├── 5d3033c5.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-1.pem
+│   │   ├── 5e98733a.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G4.pem
+│   │   ├── 5f15c80c.0 -> /etc/ca-certificates/extracted/cadir/TWCA_Global_Root_CA.pem
+│   │   ├── 5f47b495.0 -> /etc/ca-certificates/extracted/cadir/Actalis_Authentication_Root_CA.pem
+│   │   ├── 5f618aec.0 -> /etc/ca-certificates/extracted/cadir/certSIGN_Root_CA_G2.pem
+│   │   ├── 5f9a69fa.0 -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+│   │   ├── 5fdd185d.0 -> /etc/ca-certificates/extracted/cadir/Certainly_Root_E1.pem
+│   │   ├── 607986c7.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G2.pem
+│   │   ├── 60afe812.0 -> /etc/ca-certificates/extracted/cadir/NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
+│   │   ├── 6187b673.0 -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X1.pem
+│   │   ├── 626dceaf.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R2.pem
+│   │   ├── 63a2c897.0 -> /etc/ca-certificates/extracted/cadir/TeliaSonera_Root_CA_v1.pem
+│   │   ├── 653b494a.0 -> /etc/ca-certificates/extracted/cadir/Baltimore_CyberTrust_Root.pem
+│   │   ├── 66445960.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_RSA_v3.pem
+│   │   ├── 68dd7389.0 -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_3.pem
+│   │   ├── 69105f4f.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_CA.pem
+│   │   ├── 6b03dec0.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R3.pem
+│   │   ├── 6b99d060.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority.pem
+│   │   ├── 6d41d539.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_2.pem
+│   │   ├── 6fa5da56.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_RSA.pem
+│   │   ├── 706f604c.0 -> /etc/ca-certificates/extracted/cadir/XRamp_Global_CA_Root.pem
+│   │   ├── 716c07b3.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_ECC_v3.pem
+│   │   ├── 749e9e03.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_1_G3.pem
+│   │   ├── 75680d2e.0 -> /etc/ca-certificates/extracted/cadir/Comodo_AAA_Services_root.pem
+│   │   ├── 75d1b2ed.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Trusted_Root_G4.pem
+│   │   ├── 76579174.0 -> /etc/ca-certificates/extracted/cadir/XRamp_Global_CA_Root.pem
+│   │   ├── 76faf6c0.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3.pem
+│   │   ├── 7719f463.0 -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+│   │   ├── 773e07ad.0 -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GC_CA.pem
+│   │   ├── 7892ad52.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_ECC.pem
+│   │   ├── 7a3adc42.0 -> /etc/ca-certificates/extracted/cadir/vTrus_Root_CA.pem
+│   │   ├── 7a780d93.0 -> /etc/ca-certificates/extracted/cadir/Certainly_Root_R1.pem
+│   │   ├── 7a7c655d.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_3.pem
+│   │   ├── 7a819ef2.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2.pem
+│   │   ├── 7aaf71c0.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_ECA-1.pem
+│   │   ├── 7c302982.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-1.pem
+│   │   ├── 7f3d5d1d.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G3.pem
+│   │   ├── 8160b96c.0 -> /etc/ca-certificates/extracted/cadir/Microsec_e-Szigno_Root_CA_2009.pem
+│   │   ├── 81b9768f.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_High_Assurance_EV_Root_CA.pem
+│   │   ├── 82223c44.0 -> /etc/ca-certificates/extracted/cadir/Buypass_Class_2_Root_CA.pem
+│   │   ├── 83e9984f.0 -> /etc/ca-certificates/extracted/cadir/e-Szigno_Root_CA_2017.pem
+│   │   ├── 8508e720.0 -> /etc/ca-certificates/extracted/cadir/Certainly_Root_E1.pem
+│   │   ├── 85cde254.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Root_Certificate_Authority_-_G2.pem
+│   │   ├── 86212b19.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Networking.pem
+│   │   ├── 869fbf79.0 -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_C3.pem
+│   │   ├── 8794b4e3.0 -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X2.pem
+│   │   ├── 882de061.0 -> /etc/ca-certificates/extracted/cadir/certSIGN_ROOT_CA.pem
+│   │   ├── 88950faa.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_ECC.pem
+│   │   ├── 89c02a45.0 -> /etc/ca-certificates/extracted/cadir/COMODO_ECC_Certification_Authority.pem
+│   │   ├── 8cb5ee0f.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_3.pem
+│   │   ├── 8d6437c3.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G2.pem
+│   │   ├── 8d86cdd1.0 -> /etc/ca-certificates/extracted/cadir/certSIGN_ROOT_CA.pem
+│   │   ├── 8d89cda1.0 -> /etc/ca-certificates/extracted/cadir/Microsoft_ECC_Root_Certificate_Authority_2017.pem
+│   │   ├── 8f103249.0 -> /etc/ca-certificates/extracted/cadir/Telia_Root_CA_v2.pem
+│   │   ├── 90c5a3c8.0 -> /etc/ca-certificates/extracted/cadir/HiPKI_Root_CA_-_G1.pem
+│   │   ├── 9282e51c.0 -> /etc/ca-certificates/extracted/cadir/CFCA_EV_ROOT.pem
+│   │   ├── 930ac5d2.0 -> /etc/ca-certificates/extracted/cadir/Actalis_Authentication_Root_CA.pem
+│   │   ├── 9339512a.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3.pem
+│   │   ├── 93851c9e.0 -> /etc/ca-certificates/extracted/cadir/ANF_Secure_Server_Root_CA.pem
+│   │   ├── 93bc0acc.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Networking.pem
+│   │   ├── 9479c8c3.0 -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+│   │   ├── 9482e63a.0 -> /etc/ca-certificates/extracted/cadir/Certum_EC-384_CA.pem
+│   │   ├── 9576d26b.0 -> /etc/ca-certificates/extracted/cadir/CA_Disig_Root_R2.pem
+│   │   ├── 9591a472.0 -> /etc/ca-certificates/extracted/cadir/Microsoft_RSA_Root_Certificate_Authority_2017.pem
+│   │   ├── 95aff9e3.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA.pem
+│   │   ├── 9685a493.0 -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_1.pem
+│   │   ├── 9846683b.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_ECC_P384_Root_G5.pem
+│   │   ├── 985c1f52.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R6.pem
+│   │   ├── 988a38cb.0 -> /etc/ca-certificates/extracted/cadir/NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
+│   │   ├── 99e1b953.0 -> /etc/ca-certificates/extracted/cadir/vTrus_Root_CA.pem
+│   │   ├── 9aef356c.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P384_Certification_Authority.pem
+│   │   ├── 9b5697b0.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P256_Certification_Authority.pem
+│   │   ├── 9c8dfbd4.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium_ECC.pem
+│   │   ├── 9d04f354.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G2.pem
+│   │   ├── 9d6523ce.0 -> /etc/ca-certificates/extracted/cadir/ePKI_Root_Certification_Authority.pem
+│   │   ├── 9ef4a08a.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_BR_Root_CA_1_2020.pem
+│   │   ├── 9f727ac7.0 -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_RSA_Root_CA_2021.pem
+│   │   ├── a2c66da8.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Trusted_Root_G4.pem
+│   │   ├── a3418fda.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R4.pem
+│   │   ├── a3896b44.0 -> /etc/ca-certificates/extracted/cadir/Security_Communication_Root_CA.pem
+│   │   ├── a716d4ed.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_EV_Root_CA_1_2020.pem
+│   │   ├── a81e292b.0 -> /etc/ca-certificates/extracted/cadir/SZAFIR_ROOT_CA2.pem
+│   │   ├── a94d09e5.0 -> /etc/ca-certificates/extracted/cadir/ACCVRAIZ1.pem
+│   │   ├── a9d40e02.0 -> /etc/ca-certificates/extracted/cadir/certSIGN_Root_CA_G2.pem
+│   │   ├── ab5346f4.0 -> /etc/ca-certificates/extracted/cadir/SecureSign_RootCA11.pem
+│   │   ├── ab59055e.0 -> /etc/ca-certificates/extracted/cadir/GDCA_TrustAUTH_R5_ROOT.pem
+│   │   ├── ACCVRAIZ1.pem -> /etc/ca-certificates/extracted/cadir/ACCVRAIZ1.pem
+│   │   ├── AC_RAIZ_FNMT-RCM.pem -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM.pem
+│   │   ├── AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+│   │   ├── Actalis_Authentication_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/Actalis_Authentication_Root_CA.pem
+│   │   ├── aeb67534.0 -> /etc/ca-certificates/extracted/cadir/EC-ACC.pem
+│   │   ├── aee5f10d.0 -> /etc/ca-certificates/extracted/cadir/Entrust.net_Premium_2048_Secure_Server_CA.pem
+│   │   ├── AffirmTrust_Commercial.pem -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Commercial.pem
+│   │   ├── AffirmTrust_Networking.pem -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Networking.pem
+│   │   ├── AffirmTrust_Premium_ECC.pem -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium_ECC.pem
+│   │   ├── AffirmTrust_Premium.pem -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium.pem
+│   │   ├── Amazon_Root_CA_1.pem -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_1.pem
+│   │   ├── Amazon_Root_CA_2.pem -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_2.pem
+│   │   ├── Amazon_Root_CA_3.pem -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_3.pem
+│   │   ├── Amazon_Root_CA_4.pem -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_4.pem
+│   │   ├── ANF_Secure_Server_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/ANF_Secure_Server_Root_CA.pem
+│   │   ├── Atos_TrustedRoot_2011.pem -> /etc/ca-certificates/extracted/cadir/Atos_TrustedRoot_2011.pem
+│   │   ├── Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.1.pem -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.1.pem
+│   │   ├── Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+│   │   ├── b0e59380.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R4.pem
+│   │   ├── b0ed035a.0 -> /etc/ca-certificates/extracted/cadir/TWCA_Global_Root_CA.pem
+│   │   ├── b0f3e76e.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA.pem
+│   │   ├── b1159c4c.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_CA.pem
+│   │   ├── b30d5fda.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_BR_Root_CA_1_2020.pem
+│   │   ├── b3fb433b.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_EC1.pem
+│   │   ├── b433981b.0 -> /etc/ca-certificates/extracted/cadir/ANF_Secure_Server_Root_CA.pem
+│   │   ├── b66938e9.0 -> /etc/ca-certificates/extracted/cadir/Secure_Global_CA.pem
+│   │   ├── b727005e.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium.pem
+│   │   ├── b74d2bd5.0 -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_G3.pem
+│   │   ├── b7a5b843.0 -> /etc/ca-certificates/extracted/cadir/TWCA_Root_Certification_Authority.pem
+│   │   ├── b7db1890.0 -> /etc/ca-certificates/extracted/cadir/TWCA_Root_Certification_Authority.pem
+│   │   ├── b81b93f0.0 -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.pem
+│   │   ├── b872f2b4.0 -> /etc/ca-certificates/extracted/cadir/Atos_TrustedRoot_2011.pem
+│   │   ├── b92fd57f.0 -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_RSA_Root_CA_2021.pem
+│   │   ├── b936d1c6.0 -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM.pem
+│   │   ├── Baltimore_CyberTrust_Root.pem -> /etc/ca-certificates/extracted/cadir/Baltimore_CyberTrust_Root.pem
+│   │   ├── bc3f2570.0 -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Root_Certificate_Authority_-_G2.pem
+│   │   ├── bd43e1dd.0 -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_3.pem
+│   │   ├── bdacca6f.0 -> /etc/ca-certificates/extracted/cadir/Secure_Global_CA.pem
+│   │   ├── bf53fb88.0 -> /etc/ca-certificates/extracted/cadir/Microsoft_RSA_Root_Certificate_Authority_2017.pem
+│   │   ├── bf64f35b.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority.pem
+│   │   ├── Buypass_Class_2_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/Buypass_Class_2_Root_CA.pem
+│   │   ├── Buypass_Class_3_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/Buypass_Class_3_Root_CA.pem
+│   │   ├── c01eb047.0 -> /etc/ca-certificates/extracted/cadir/UCA_Global_G2_Root.pem
+│   │   ├── c28a8a30.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_2009.pem
+│   │   ├── c2c1704e.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_ECA-1.pem
+│   │   ├── c44cc0c0.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_RSA4096_Root_G5.pem
+│   │   ├── c491639e.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G3.pem
+│   │   ├── c559d742.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R2.pem
+│   │   ├── c90bc37d.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G2.pem
+│   │   ├── ca6e4ad9.0 -> /etc/ca-certificates/extracted/cadir/ePKI_Root_Certification_Authority.pem
+│   │   ├── ca-certificates.crt -> /etc/ca-certificates/extracted/tls-ca-bundle.pem
+│   │   ├── CA_Disig_Root_R2.pem -> /etc/ca-certificates/extracted/cadir/CA_Disig_Root_R2.pem
+│   │   ├── cb156124.0 -> /etc/ca-certificates/extracted/cadir/E-Tugra_Certification_Authority.pem
+│   │   ├── cb1c3204.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA_2.pem
+│   │   ├── cbf06781.0 -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Root_Certificate_Authority_-_G2.pem
+│   │   ├── cc450945.0 -> /etc/ca-certificates/extracted/cadir/Izenpe.com.pem
+│   │   ├── ccc52f49.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium_ECC.pem
+│   │   ├── cd58d51e.0 -> /etc/ca-certificates/extracted/cadir/Security_Communication_RootCA2.pem
+│   │   ├── cd8c0d63.0 -> /etc/ca-certificates/extracted/cadir/AC_RAIZ_FNMT-RCM.pem
+│   │   ├── ce5e74ef.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_1.pem
+│   │   ├── Certainly_Root_E1.pem -> /etc/ca-certificates/extracted/cadir/Certainly_Root_E1.pem
+│   │   ├── Certainly_Root_R1.pem -> /etc/ca-certificates/extracted/cadir/Certainly_Root_R1.pem
+│   │   ├── Certigna.pem -> /etc/ca-certificates/extracted/cadir/Certigna.pem
+│   │   ├── Certigna_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/Certigna_Root_CA.pem
+│   │   ├── certSIGN_Root_CA_G2.pem -> /etc/ca-certificates/extracted/cadir/certSIGN_Root_CA_G2.pem
+│   │   ├── certSIGN_ROOT_CA.pem -> /etc/ca-certificates/extracted/cadir/certSIGN_ROOT_CA.pem
+│   │   ├── Certum_EC-384_CA.pem -> /etc/ca-certificates/extracted/cadir/Certum_EC-384_CA.pem
+│   │   ├── Certum_Trusted_Network_CA_2.pem -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA_2.pem
+│   │   ├── Certum_Trusted_Network_CA.pem -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Network_CA.pem
+│   │   ├── Certum_Trusted_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Root_CA.pem
+│   │   ├── cf701eeb.0 -> /etc/ca-certificates/extracted/cadir/SecureTrust_CA.pem
+│   │   ├── CFCA_EV_ROOT.pem -> /etc/ca-certificates/extracted/cadir/CFCA_EV_ROOT.pem
+│   │   ├── Comodo_AAA_Services_root.pem -> /etc/ca-certificates/extracted/cadir/Comodo_AAA_Services_root.pem
+│   │   ├── COMODO_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/COMODO_Certification_Authority.pem
+│   │   ├── COMODO_ECC_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/COMODO_ECC_Certification_Authority.pem
+│   │   ├── COMODO_RSA_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/COMODO_RSA_Certification_Authority.pem
+│   │   ├── d06393bb.0 -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_2.pem
+│   │   ├── d0cddf45.0 -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-2.pem
+│   │   ├── d16a5865.0 -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem
+│   │   ├── d16a5865.1 -> /etc/ca-certificates/extracted/cadir/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.1.pem
+│   │   ├── d18e9066.0 -> /etc/ca-certificates/extracted/cadir/IdenTrust_Commercial_Root_CA_1.pem
+│   │   ├── d39b0a2c.0 -> /etc/ca-certificates/extracted/cadir/NAVER_Global_Root_Certification_Authority.pem
+│   │   ├── d41b5e2a.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_4.pem
+│   │   ├── d4c339cb.0 -> /etc/ca-certificates/extracted/cadir/COMODO_RSA_Certification_Authority.pem
+│   │   ├── d4dae3dd.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+│   │   ├── d52c538d.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_RSA4096_Root_G5.pem
+│   │   ├── d59297b8.0 -> /etc/ca-certificates/extracted/cadir/Security_Communication_RootCA2.pem
+│   │   ├── d6325660.0 -> /etc/ca-certificates/extracted/cadir/COMODO_RSA_Certification_Authority.pem
+│   │   ├── d7746a63.0 -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+│   │   ├── d7e8dc79.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2.pem
+│   │   ├── d887a5bb.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P384_Certification_Authority.pem
+│   │   ├── d96b65e2.0 -> /etc/ca-certificates/extracted/cadir/Certainly_Root_R1.pem
+│   │   ├── da7377f6.0 -> /etc/ca-certificates/extracted/cadir/UCA_Extended_Validation_Root.pem
+│   │   ├── dbc54cab.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Premium.pem
+│   │   ├── dbff3a01.0 -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_C1.pem
+│   │   ├── dc4d6a89.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R6.pem
+│   │   ├── dc99f41e.0 -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+│   │   ├── dd8e9d41.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G3.pem
+│   │   ├── de6d66f3.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_4.pem
+│   │   ├── dfc0fe80.0 -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GB_CA.pem
+│   │   ├── DigiCert_Assured_ID_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_CA.pem
+│   │   ├── DigiCert_Assured_ID_Root_G2.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G2.pem
+│   │   ├── DigiCert_Assured_ID_Root_G3.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_Assured_ID_Root_G3.pem
+│   │   ├── DigiCert_Global_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_CA.pem
+│   │   ├── DigiCert_Global_Root_G2.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G2.pem
+│   │   ├── DigiCert_Global_Root_G3.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G3.pem
+│   │   ├── DigiCert_High_Assurance_EV_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_High_Assurance_EV_Root_CA.pem
+│   │   ├── DigiCert_TLS_ECC_P384_Root_G5.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_ECC_P384_Root_G5.pem
+│   │   ├── DigiCert_TLS_RSA4096_Root_G5.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_TLS_RSA4096_Root_G5.pem
+│   │   ├── DigiCert_Trusted_Root_G4.pem -> /etc/ca-certificates/extracted/cadir/DigiCert_Trusted_Root_G4.pem
+│   │   ├── D-TRUST_BR_Root_CA_1_2020.pem -> /etc/ca-certificates/extracted/cadir/D-TRUST_BR_Root_CA_1_2020.pem
+│   │   ├── D-TRUST_EV_Root_CA_1_2020.pem -> /etc/ca-certificates/extracted/cadir/D-TRUST_EV_Root_CA_1_2020.pem
+│   │   ├── D-TRUST_Root_Class_3_CA_2_2009.pem -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_2009.pem
+│   │   ├── D-TRUST_Root_Class_3_CA_2_EV_2009.pem -> /etc/ca-certificates/extracted/cadir/D-TRUST_Root_Class_3_CA_2_EV_2009.pem
+│   │   ├── e113c810.0 -> /etc/ca-certificates/extracted/cadir/Certigna.pem
+│   │   ├── e13665f9.0 -> /etc/ca-certificates/extracted/cadir/TunTrust_Root_CA.pem
+│   │   ├── e18bfb83.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3_G3.pem
+│   │   ├── e35234b1.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Root_CA.pem
+│   │   ├── e36a6752.0 -> /etc/ca-certificates/extracted/cadir/Atos_TrustedRoot_2011.pem
+│   │   ├── e442e424.0 -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3_G3.pem
+│   │   ├── e48193cf.0 -> /etc/ca-certificates/extracted/cadir/AffirmTrust_Commercial.pem
+│   │   ├── e73d606e.0 -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GB_CA.pem
+│   │   ├── e7c037b4.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_E46.pem
+│   │   ├── e8651083.0 -> /etc/ca-certificates/extracted/cadir/Microsec_e-Szigno_Root_CA_2009.pem
+│   │   ├── e868b802.0 -> /etc/ca-certificates/extracted/cadir/e-Szigno_Root_CA_2017.pem
+│   │   ├── e8de2f56.0 -> /etc/ca-certificates/extracted/cadir/Buypass_Class_3_Root_CA.pem
+│   │   ├── EC-ACC.pem -> /etc/ca-certificates/extracted/cadir/EC-ACC.pem
+│   │   ├── ecccd8db.0 -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_ECC_Root_CA_2021.pem
+│   │   ├── ed39abd0.0 -> /etc/ca-certificates/extracted/cadir/DigiCert_Global_Root_G3.pem
+│   │   ├── ed858448.0 -> /etc/ca-certificates/extracted/cadir/vTrus_ECC_Root_CA.pem
+│   │   ├── edcbddb5.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_Certification_Authority.pem
+│   │   ├── edk2
+│   │   ├── ee532fd5.0 -> /etc/ca-certificates/extracted/cadir/vTrus_ECC_Root_CA.pem
+│   │   ├── ee64a828.0 -> /etc/ca-certificates/extracted/cadir/Comodo_AAA_Services_root.pem
+│   │   ├── eed8c118.0 -> /etc/ca-certificates/extracted/cadir/COMODO_ECC_Certification_Authority.pem
+│   │   ├── ef954a4e.0 -> /etc/ca-certificates/extracted/cadir/IdenTrust_Commercial_Root_CA_1.pem
+│   │   ├── emSign_ECC_Root_CA_-_C3.pem -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_C3.pem
+│   │   ├── emSign_ECC_Root_CA_-_G3.pem -> /etc/ca-certificates/extracted/cadir/emSign_ECC_Root_CA_-_G3.pem
+│   │   ├── emSign_Root_CA_-_C1.pem -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_C1.pem
+│   │   ├── emSign_Root_CA_-_G1.pem -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_G1.pem
+│   │   ├── Entrust.net_Premium_2048_Secure_Server_CA.pem -> /etc/ca-certificates/extracted/cadir/Entrust.net_Premium_2048_Secure_Server_CA.pem
+│   │   ├── Entrust_Root_Certification_Authority_-_EC1.pem -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_EC1.pem
+│   │   ├── Entrust_Root_Certification_Authority_-_G2.pem -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G2.pem
+│   │   ├── Entrust_Root_Certification_Authority_-_G4.pem -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G4.pem
+│   │   ├── Entrust_Root_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority.pem
+│   │   ├── ePKI_Root_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/ePKI_Root_Certification_Authority.pem
+│   │   ├── e-Szigno_Root_CA_2017.pem -> /etc/ca-certificates/extracted/cadir/e-Szigno_Root_CA_2017.pem
+│   │   ├── E-Tugra_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/E-Tugra_Certification_Authority.pem
+│   │   ├── E-Tugra_Global_Root_CA_ECC_v3.pem -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_ECC_v3.pem
+│   │   ├── E-Tugra_Global_Root_CA_RSA_v3.pem -> /etc/ca-certificates/extracted/cadir/E-Tugra_Global_Root_CA_RSA_v3.pem
+│   │   ├── f013ecaf.0 -> /etc/ca-certificates/extracted/cadir/GTS_Root_R1.pem
+│   │   ├── f058632f.0 -> /etc/ca-certificates/extracted/cadir/Telia_Root_CA_v2.pem
+│   │   ├── f081611a.0 -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Class_2_CA.pem
+│   │   ├── f0c70a8d.0 -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_ECC.pem
+│   │   ├── f0cd152c.0 -> /etc/ca-certificates/extracted/cadir/Entrust_Root_Certification_Authority_-_G4.pem
+│   │   ├── f249de83.0 -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_Certification_Authority.pem
+│   │   ├── f30dd6ad.0 -> /etc/ca-certificates/extracted/cadir/USERTrust_ECC_Certification_Authority.pem
+│   │   ├── f3377b1b.0 -> /etc/ca-certificates/extracted/cadir/Security_Communication_Root_CA.pem
+│   │   ├── f387163d.0 -> /etc/ca-certificates/extracted/cadir/Starfield_Class_2_CA.pem
+│   │   ├── f39fc864.0 -> /etc/ca-certificates/extracted/cadir/SecureTrust_CA.pem
+│   │   ├── f459871d.0 -> /etc/ca-certificates/extracted/cadir/emSign_Root_CA_-_G1.pem
+│   │   ├── f51bb24c.0 -> /etc/ca-certificates/extracted/cadir/Certigna_Root_CA.pem
+│   │   ├── f8fc53da.0 -> /etc/ca-certificates/extracted/cadir/Certum_Trusted_Root_CA.pem
+│   │   ├── fa5da96b.0 -> /etc/ca-certificates/extracted/cadir/GLOBALTRUST_2020.pem
+│   │   ├── fb5fa911.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_2.pem
+│   │   ├── fc5a8f99.0 -> /etc/ca-certificates/extracted/cadir/USERTrust_RSA_Certification_Authority.pem
+│   │   ├── fd08c599.0 -> /etc/ca-certificates/extracted/cadir/Amazon_Root_CA_1.pem
+│   │   ├── fd64f3fc.0 -> /etc/ca-certificates/extracted/cadir/TunTrust_Root_CA.pem
+│   │   ├── fde84897.0 -> /etc/ca-certificates/extracted/cadir/Certigna.pem
+│   │   ├── fe8a2cd8.0 -> /etc/ca-certificates/extracted/cadir/SZAFIR_ROOT_CA2.pem
+│   │   ├── feffd413.0 -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_E46.pem
+│   │   ├── ff34af3f.0 -> /etc/ca-certificates/extracted/cadir/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+│   │   ├── GDCA_TrustAUTH_R5_ROOT.pem -> /etc/ca-certificates/extracted/cadir/GDCA_TrustAUTH_R5_ROOT.pem
+│   │   ├── GlobalSign_ECC_Root_CA_-_R4.pem -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R4.pem
+│   │   ├── GlobalSign_ECC_Root_CA_-_R5.pem -> /etc/ca-certificates/extracted/cadir/GlobalSign_ECC_Root_CA_-_R5.pem
+│   │   ├── GlobalSign_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA.pem
+│   │   ├── GlobalSign_Root_CA_-_R3.pem -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R3.pem
+│   │   ├── GlobalSign_Root_CA_-_R6.pem -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_CA_-_R6.pem
+│   │   ├── GlobalSign_Root_E46.pem -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_E46.pem
+│   │   ├── GlobalSign_Root_R46.pem -> /etc/ca-certificates/extracted/cadir/GlobalSign_Root_R46.pem
+│   │   ├── GLOBALTRUST_2020.pem -> /etc/ca-certificates/extracted/cadir/GLOBALTRUST_2020.pem
+│   │   ├── Go_Daddy_Class_2_CA.pem -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Class_2_CA.pem
+│   │   ├── Go_Daddy_Root_Certificate_Authority_-_G2.pem -> /etc/ca-certificates/extracted/cadir/Go_Daddy_Root_Certificate_Authority_-_G2.pem
+│   │   ├── GTS_Root_R1.pem -> /etc/ca-certificates/extracted/cadir/GTS_Root_R1.pem
+│   │   ├── GTS_Root_R2.pem -> /etc/ca-certificates/extracted/cadir/GTS_Root_R2.pem
+│   │   ├── GTS_Root_R3.pem -> /etc/ca-certificates/extracted/cadir/GTS_Root_R3.pem
+│   │   ├── GTS_Root_R4.pem -> /etc/ca-certificates/extracted/cadir/GTS_Root_R4.pem
+│   │   ├── HARICA_TLS_ECC_Root_CA_2021.pem -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_ECC_Root_CA_2021.pem
+│   │   ├── HARICA_TLS_RSA_Root_CA_2021.pem -> /etc/ca-certificates/extracted/cadir/HARICA_TLS_RSA_Root_CA_2021.pem
+│   │   ├── Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem
+│   │   ├── Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem -> /etc/ca-certificates/extracted/cadir/Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem
+│   │   ├── HiPKI_Root_CA_-_G1.pem -> /etc/ca-certificates/extracted/cadir/HiPKI_Root_CA_-_G1.pem
+│   │   ├── Hongkong_Post_Root_CA_1.pem -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_1.pem
+│   │   ├── Hongkong_Post_Root_CA_3.pem -> /etc/ca-certificates/extracted/cadir/Hongkong_Post_Root_CA_3.pem
+│   │   ├── IdenTrust_Commercial_Root_CA_1.pem -> /etc/ca-certificates/extracted/cadir/IdenTrust_Commercial_Root_CA_1.pem
+│   │   ├── IdenTrust_Public_Sector_Root_CA_1.pem -> /etc/ca-certificates/extracted/cadir/IdenTrust_Public_Sector_Root_CA_1.pem
+│   │   ├── ISRG_Root_X1.pem -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X1.pem
+│   │   ├── ISRG_Root_X2.pem -> /etc/ca-certificates/extracted/cadir/ISRG_Root_X2.pem
+│   │   ├── Izenpe.com.pem -> /etc/ca-certificates/extracted/cadir/Izenpe.com.pem
+│   │   ├── java
+│   │   │   └── cacerts
+│   │   ├── Microsec_e-Szigno_Root_CA_2009.pem -> /etc/ca-certificates/extracted/cadir/Microsec_e-Szigno_Root_CA_2009.pem
+│   │   ├── Microsoft_ECC_Root_Certificate_Authority_2017.pem -> /etc/ca-certificates/extracted/cadir/Microsoft_ECC_Root_Certificate_Authority_2017.pem
+│   │   ├── Microsoft_RSA_Root_Certificate_Authority_2017.pem -> /etc/ca-certificates/extracted/cadir/Microsoft_RSA_Root_Certificate_Authority_2017.pem
+│   │   ├── NAVER_Global_Root_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/NAVER_Global_Root_Certification_Authority.pem
+│   │   ├── NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem -> /etc/ca-certificates/extracted/cadir/NetLock_Arany__Class_Gold__F__tan__s__tv__ny.pem
+│   │   ├── Network_Solutions_Certificate_Authority.pem -> /etc/ca-certificates/extracted/cadir/Network_Solutions_Certificate_Authority.pem
+│   │   ├── OISTE_WISeKey_Global_Root_GB_CA.pem -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GB_CA.pem
+│   │   ├── OISTE_WISeKey_Global_Root_GC_CA.pem -> /etc/ca-certificates/extracted/cadir/OISTE_WISeKey_Global_Root_GC_CA.pem
+│   │   ├── QuoVadis_Root_CA_1_G3.pem -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_1_G3.pem
+│   │   ├── QuoVadis_Root_CA_2_G3.pem -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2_G3.pem
+│   │   ├── QuoVadis_Root_CA_2.pem -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_2.pem
+│   │   ├── QuoVadis_Root_CA_3_G3.pem -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3_G3.pem
+│   │   ├── QuoVadis_Root_CA_3.pem -> /etc/ca-certificates/extracted/cadir/QuoVadis_Root_CA_3.pem
+│   │   ├── Secure_Global_CA.pem -> /etc/ca-certificates/extracted/cadir/Secure_Global_CA.pem
+│   │   ├── SecureSign_RootCA11.pem -> /etc/ca-certificates/extracted/cadir/SecureSign_RootCA11.pem
+│   │   ├── SecureTrust_CA.pem -> /etc/ca-certificates/extracted/cadir/SecureTrust_CA.pem
+│   │   ├── Security_Communication_RootCA2.pem -> /etc/ca-certificates/extracted/cadir/Security_Communication_RootCA2.pem
+│   │   ├── Security_Communication_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/Security_Communication_Root_CA.pem
+│   │   ├── SSL.com_EV_Root_Certification_Authority_ECC.pem -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_ECC.pem
+│   │   ├── SSL.com_EV_Root_Certification_Authority_RSA_R2.pem -> /etc/ca-certificates/extracted/cadir/SSL.com_EV_Root_Certification_Authority_RSA_R2.pem
+│   │   ├── SSL.com_Root_Certification_Authority_ECC.pem -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_ECC.pem
+│   │   ├── SSL.com_Root_Certification_Authority_RSA.pem -> /etc/ca-certificates/extracted/cadir/SSL.com_Root_Certification_Authority_RSA.pem
+│   │   ├── Staat_der_Nederlanden_EV_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/Staat_der_Nederlanden_EV_Root_CA.pem
+│   │   ├── Starfield_Class_2_CA.pem -> /etc/ca-certificates/extracted/cadir/Starfield_Class_2_CA.pem
+│   │   ├── Starfield_Root_Certificate_Authority_-_G2.pem -> /etc/ca-certificates/extracted/cadir/Starfield_Root_Certificate_Authority_-_G2.pem
+│   │   ├── Starfield_Services_Root_Certificate_Authority_-_G2.pem -> /etc/ca-certificates/extracted/cadir/Starfield_Services_Root_Certificate_Authority_-_G2.pem
+│   │   ├── SwissSign_Gold_CA_-_G2.pem -> /etc/ca-certificates/extracted/cadir/SwissSign_Gold_CA_-_G2.pem
+│   │   ├── SwissSign_Silver_CA_-_G2.pem -> /etc/ca-certificates/extracted/cadir/SwissSign_Silver_CA_-_G2.pem
+│   │   ├── SZAFIR_ROOT_CA2.pem -> /etc/ca-certificates/extracted/cadir/SZAFIR_ROOT_CA2.pem
+│   │   ├── Telia_Root_CA_v2.pem -> /etc/ca-certificates/extracted/cadir/Telia_Root_CA_v2.pem
+│   │   ├── TeliaSonera_Root_CA_v1.pem -> /etc/ca-certificates/extracted/cadir/TeliaSonera_Root_CA_v1.pem
+│   │   ├── TrustCor_ECA-1.pem -> /etc/ca-certificates/extracted/cadir/TrustCor_ECA-1.pem
+│   │   ├── TrustCor_RootCert_CA-1.pem -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-1.pem
+│   │   ├── TrustCor_RootCert_CA-2.pem -> /etc/ca-certificates/extracted/cadir/TrustCor_RootCert_CA-2.pem
+│   │   ├── Trustwave_Global_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_Certification_Authority.pem
+│   │   ├── Trustwave_Global_ECC_P256_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P256_Certification_Authority.pem
+│   │   ├── Trustwave_Global_ECC_P384_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/Trustwave_Global_ECC_P384_Certification_Authority.pem
+│   │   ├── T-TeleSec_GlobalRoot_Class_2.pem -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_2.pem
+│   │   ├── T-TeleSec_GlobalRoot_Class_3.pem -> /etc/ca-certificates/extracted/cadir/T-TeleSec_GlobalRoot_Class_3.pem
+│   │   ├── TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem -> /etc/ca-certificates/extracted/cadir/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem
+│   │   ├── TunTrust_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/TunTrust_Root_CA.pem
+│   │   ├── TWCA_Global_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/TWCA_Global_Root_CA.pem
+│   │   ├── TWCA_Root_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/TWCA_Root_Certification_Authority.pem
+│   │   ├── UCA_Extended_Validation_Root.pem -> /etc/ca-certificates/extracted/cadir/UCA_Extended_Validation_Root.pem
+│   │   ├── UCA_Global_G2_Root.pem -> /etc/ca-certificates/extracted/cadir/UCA_Global_G2_Root.pem
+│   │   ├── USERTrust_ECC_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/USERTrust_ECC_Certification_Authority.pem
+│   │   ├── USERTrust_RSA_Certification_Authority.pem -> /etc/ca-certificates/extracted/cadir/USERTrust_RSA_Certification_Authority.pem
+│   │   ├── vTrus_ECC_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/vTrus_ECC_Root_CA.pem
+│   │   ├── vTrus_Root_CA.pem -> /etc/ca-certificates/extracted/cadir/vTrus_Root_CA.pem
+│   │   └── XRamp_Global_CA_Root.pem -> /etc/ca-certificates/extracted/cadir/XRamp_Global_CA_Root.pem
+│   ├── ct_log_list.cnf
+│   ├── ct_log_list.cnf.dist
+│   ├── misc
+│   │   ├── CA.pl
+│   │   ├── tsget -> /etc/ssl/misc/tsget.pl
+│   │   └── tsget.pl
+│   ├── openssl.cnf
+│   ├── openssl.cnf.dist
+│   └── private
+├── strongswan.conf
+├── strongswan.d
+│   ├── charon
+│   │   ├── aes.conf
+│   │   ├── aesni.conf
+│   │   ├── agent.conf
+│   │   ├── attr.conf
+│   │   ├── attr-sql.conf
+│   │   ├── bliss.conf
+│   │   ├── bypass-lan.conf
+│   │   ├── chapoly.conf
+│   │   ├── cmac.conf
+│   │   ├── connmark.conf
+│   │   ├── constraints.conf
+│   │   ├── counters.conf
+│   │   ├── curl.conf
+│   │   ├── curve25519.conf
+│   │   ├── des.conf
+│   │   ├── dhcp.conf
+│   │   ├── dnscert.conf
+│   │   ├── dnskey.conf
+│   │   ├── drbg.conf
+│   │   ├── eap-aka-3gpp2.conf
+│   │   ├── eap-aka.conf
+│   │   ├── eap-dynamic.conf
+│   │   ├── eap-gtc.conf
+│   │   ├── eap-identity.conf
+│   │   ├── eap-md5.conf
+│   │   ├── eap-mschapv2.conf
+│   │   ├── eap-peap.conf
+│   │   ├── eap-radius.conf
+│   │   ├── eap-simaka-pseudonym.conf
+│   │   ├── eap-simaka-reauth.conf
+│   │   ├── eap-sim.conf
+│   │   ├── eap-sim-file.conf
+│   │   ├── eap-tls.conf
+│   │   ├── eap-ttls.conf
+│   │   ├── ext-auth.conf
+│   │   ├── farp.conf
+│   │   ├── fips-prf.conf
+│   │   ├── forecast.conf
+│   │   ├── gmp.conf
+│   │   ├── ha.conf
+│   │   ├── hmac.conf
+│   │   ├── kdf.conf
+│   │   ├── kernel-netlink.conf
+│   │   ├── ldap.conf
+│   │   ├── md5.conf
+│   │   ├── mgf1.conf
+│   │   ├── mysql.conf
+│   │   ├── newhope.conf
+│   │   ├── nonce.conf
+│   │   ├── ntru.conf
+│   │   ├── openssl.conf
+│   │   ├── pem.conf
+│   │   ├── pgp.conf
+│   │   ├── pkcs11.conf
+│   │   ├── pkcs12.conf
+│   │   ├── pkcs1.conf
+│   │   ├── pkcs7.conf
+│   │   ├── pkcs8.conf
+│   │   ├── pubkey.conf
+│   │   ├── radattr.conf
+│   │   ├── random.conf
+│   │   ├── rc2.conf
+│   │   ├── resolve.conf
+│   │   ├── revocation.conf
+│   │   ├── sha1.conf
+│   │   ├── sha2.conf
+│   │   ├── sha3.conf
+│   │   ├── socket-default.conf
+│   │   ├── sql.conf
+│   │   ├── sqlite.conf
+│   │   ├── sshkey.conf
+│   │   ├── stroke.conf
+│   │   ├── unity.conf
+│   │   ├── updown.conf
+│   │   ├── vici.conf
+│   │   ├── x509.conf
+│   │   ├── xauth-eap.conf
+│   │   ├── xauth-generic.conf
+│   │   ├── xauth-noauth.conf
+│   │   ├── xauth-pam.conf
+│   │   └── xcbc.conf
+│   ├── charon.conf
+│   ├── charon-logging.conf
+│   ├── charon-systemd.conf
+│   ├── pki.conf
+│   ├── pool.conf
+│   ├── scepclient.conf
+│   ├── starter.conf
+│   └── swanctl.conf
+├── sudo.conf
+├── sudoers
+├── sudoers.d  [error opening dir]
+├── sudoers.pacnew
+├── sudo_logsrvd.conf
+├── swanctl
+│   ├── bliss  [error opening dir]
+│   ├── conf.d
+│   ├── ecdsa  [error opening dir]
+│   ├── pkcs12  [error opening dir]
+│   ├── pkcs8  [error opening dir]
+│   ├── private  [error opening dir]
+│   ├── pubkey
+│   ├── rsa  [error opening dir]
+│   ├── swanctl.conf
+│   ├── swanctl.conf.pacnew
+│   ├── x509
+│   ├── x509aa
+│   ├── x509ac
+│   ├── x509ca
+│   ├── x509crl
+│   └── x509ocsp
+├── sysctl.conf
+├── sysctl.d
+├── systemd
+│   ├── coredump.conf
+│   ├── homed.conf
+│   ├── homed.conf.pacnew
+│   ├── journald.conf
+│   ├── journal-remote.conf
+│   ├── journal-upload.conf
+│   ├── logind.conf
+│   ├── network
+│   ├── networkd.conf
+│   ├── oomd.conf
+│   ├── pstore.conf
+│   ├── resolved.conf
+│   ├── sleep.conf
+│   ├── system
+│   │   ├── bluetooth.target.wants
+│   │   │   └── bluetooth.service -> /usr/lib/systemd/system/bluetooth.service
+│   │   ├── dbus-org.bluez.service -> /usr/lib/systemd/system/bluetooth.service
+│   │   ├── dbus-org.freedesktop.Avahi.service -> /usr/lib/systemd/system/avahi-daemon.service
+│   │   ├── dbus-org.freedesktop.timesync1.service -> /usr/lib/systemd/system/systemd-timesyncd.service
+│   │   ├── display-manager.service -> /usr/lib/systemd/system/lightdm.service
+│   │   ├── getty.target.wants
+│   │   │   └── getty@tty1.service -> /usr/lib/systemd/system/getty@.service
+│   │   ├── graphical.target.wants
+│   │   │   ├── bumblebeed.service -> /usr/lib/systemd/system/bumblebeed.service
+│   │   │   └── optimus-manager.service -> /usr/lib/systemd/system/optimus-manager.service
+│   │   ├── multi-user.target.wants
+│   │   │   ├── avahi-daemon.service -> /usr/lib/systemd/system/avahi-daemon.service
+│   │   │   ├── cups.path -> /usr/lib/systemd/system/cups.path
+│   │   │   ├── cups.service -> /usr/lib/systemd/system/cups.service
+│   │   │   ├── docker.service -> /usr/lib/systemd/system/docker.service
+│   │   │   ├── libvirtd.service -> /usr/lib/systemd/system/libvirtd.service
+│   │   │   └── remote-fs.target -> /usr/lib/systemd/system/remote-fs.target
+│   │   ├── printer.target.wants
+│   │   │   └── cups.service -> /usr/lib/systemd/system/cups.service
+│   │   ├── sockets.target.wants
+│   │   │   ├── avahi-daemon.socket -> /usr/lib/systemd/system/avahi-daemon.socket
+│   │   │   ├── cups.socket -> /usr/lib/systemd/system/cups.socket
+│   │   │   ├── libvirtd-ro.socket -> /usr/lib/systemd/system/libvirtd-ro.socket
+│   │   │   ├── libvirtd.socket -> /usr/lib/systemd/system/libvirtd.socket
+│   │   │   ├── virtlockd.socket -> /usr/lib/systemd/system/virtlockd.socket
+│   │   │   └── virtlogd.socket -> /usr/lib/systemd/system/virtlogd.socket
+│   │   └── sysinit.target.wants
+│   │       └── systemd-timesyncd.service -> /usr/lib/systemd/system/systemd-timesyncd.service
+│   ├── system.conf
+│   ├── timesyncd.conf
+│   ├── user
+│   │   └── sockets.target.wants
+│   │       ├── p11-kit-server.socket -> /usr/lib/systemd/user/p11-kit-server.socket
+│   │       ├── pipewire.socket -> /usr/lib/systemd/user/pipewire.socket
+│   │       └── pulseaudio.socket -> /usr/lib/systemd/user/pulseaudio.socket
+│   └── user.conf
+├── teamviewer
+│   └── global.conf
+├── texmf
+│   ├── chktex
+│   │   └── chktexrc
+│   ├── dvipdfmx
+│   │   └── dvipdfmx.cfg
+│   ├── dvips
+│   │   └── config
+│   │       └── config.ps
+│   ├── ls-R
+│   ├── tex
+│   │   └── generic
+│   │       ├── config
+│   │       │   ├── language.dat
+│   │       │   └── language.def
+│   │       └── tex-ini-files
+│   │           └── pdftexconfig.tex
+│   ├── ttf2pk
+│   │   └── ttf2pk.cfg
+│   ├── web2c
+│   │   ├── fmtutil.cnf
+│   │   ├── mktex.cnf
+│   │   ├── texmf.cnf
+│   │   ├── updmap.cfg
+│   │   └── updmap-hdr.cfg
+│   └── xdvi
+│       └── XDvi
+├── tmpfiles.d
+├── tor
+│   ├── torrc
+│   └── torsocks.conf
+├── tox-bootstrapd.conf
+├── tpm2-tss
+│   ├── fapi-config.json
+│   └── fapi-profiles
+│       ├── P_ECCP256SHA256.json
+│       └── P_RSA2048SHA256.json
+├── trusted-key.key
+├── ts.conf
+├── udev
+│   ├── hwdb.d
+│   ├── rules.d
+│   └── udev.conf
+├── udisks2
+│   ├── mount_options.conf.example
+│   └── udisks2.conf
+├── unbound
+│   ├── trusted-key.key
+│   └── unbound.conf
+├── vconsole.conf
+├── vde2
+│   ├── libvdemgmt
+│   │   ├── asyncrecv.rc
+│   │   ├── closemachine.rc
+│   │   ├── openmachine.rc
+│   │   └── sendcmd.rc
+│   └── vdecmd
+├── vdpau_wrapper.cfg
+├── vimrc
+├── wgetrc
+├── wpa_supplicant
+├── X11
+│   ├── idk.conf
+│   ├── xinit
+│   │   ├── xinitrc
+│   │   ├── xinitrc.d
+│   │   │   ├── 40-libcanberra-gtk-module.sh
+│   │   │   ├── 50-systemd-user.sh
+│   │   │   └── 90xbrlapi
+│   │   └── xserverrc
+│   ├── xorg.conf.backup
+│   ├── xorg.conf.d
+│   │   ├── 10-optimus-manager.conf
+│   │   └── none.idk
+│   └── xorg.conf.nvidia-xconfig-original
+├── xattr.conf
+├── xdg
+│   ├── autostart
+│   │   ├── at-spi-dbus-bus.desktop
+│   │   ├── print-applet.desktop
+│   │   └── pulseaudio.desktop
+│   ├── downgrade
+│   │   └── downgrade.conf
+│   ├── nvim
+│   │   └── sysinit.vim
+│   ├── picom.conf
+│   ├── reflector
+│   │   └── reflector.conf
+│   ├── systemd
+│   │   └── user -> /etc/systemd/user
+│   ├── tbsm
+│   │   ├── tbsm.conf
+│   │   └── themes
+│   │       ├── austere
+│   │       ├── gently
+│   │       └── riddler
+│   └── Xwayland-session.d
+│       ├── 00-at-spi
+│       └── 00-pulseaudio-x11
+├── xinetd.d
+│   ├── rlogin
+│   ├── rsh
+│   ├── rsync
+│   ├── talk
+│   └── telnet
+├── xml
+│   ├── catalog
+│   └── docbook-xml
+├── xmrig
+│   └── xmrig.conf
+├── xmr-stak-rx
+└── zsh
+    └── zprofile
 
-1 directory, 1 file
+245 directories, 1568 files
