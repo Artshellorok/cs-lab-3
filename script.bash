@@ -1,5 +1,6 @@
 export LANG=en_US.UTF-8
 shopt -s nullglob
+shopt -u expand_aliases
 printEntity() {
     filepath=$1
     ind=$2
@@ -36,7 +37,11 @@ traverse(){
         fi
         # echo $prefix $pointer $el
         printf "${prefix}${pointer}"
-        echo "${el##*/}"
+        if [[ -L $el ]]; then
+            echo "${el##*/} -> $( realpath $el )"
+        else
+            echo "${el##*/}"
+        fi
 
         if [[ -d $el ]]; then
             count_dir=$(( count_dir +1 ))
