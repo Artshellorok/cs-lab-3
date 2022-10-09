@@ -72,6 +72,15 @@ do
         traverse "$path" ""
     fi
 done
-
-printf "\n$count_dir directories, $count_files files\n"
+if [[ $count_dir -eq 1 ]]; then
+    printf "\n1 directory, "
+else
+    printf "\n$count_dir directories, "
+fi
+if [[ $count_files -eq 1 ]]; then
+    printf "1 file\n"
+else
+    printf "$count_files files\n"
+fi
+# printf "\n$count_dir directories, $count_files files\n"
 shopt -u nullglob
