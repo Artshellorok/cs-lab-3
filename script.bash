@@ -26,11 +26,6 @@ traverse(){
 
         if [[ -d "$path/$el" ]]; then
             count_dir=$(( count_dir +1 ))
-            if ! [[ -r "$path/$el" ]]; then
-                echo "$el  [error opening dir]"
-            else 
-                echo "$el"
-            fi
             traverse "$path/$el" "$prefix$local_prefix"
         else
             echo "${el##*/}"
