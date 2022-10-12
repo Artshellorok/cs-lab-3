@@ -24,7 +24,16 @@ traverse(){
 
         printf "${prefix}${pointer}"
 
-        if [[ -d "$path/$el" ]]; then
+		file=0
+		for char in $(grep -o . <<< "$el")
+		do
+			if [ "$char" = "." ]
+			then
+				file=1
+			fi
+		done
+
+        if [[ $file -eq 0 ]] && [[ -d "$path/$el" ]]; then
             count_dir=$(( count_dir +1 ))
             if ! [[ -r "$path/$el" ]]; then
                 echo "$el  [error opening dir]"
