@@ -53,21 +53,16 @@ traverse(){
 count_dir=0
 count_files=0
 
-if [[ $# -eq 0 ]]; then
-    traverse '.' ''
+direct=$1
+if [[ "$direct" = "" ]]; then 
+    direct="."
 fi
 
-for path in "$@"
-do
-    if ! [[ -d "$path" ]]; then
-        echo "$path  [error opening dir]"
-    else
-        count_dir=0
-        count_files=0
-        echo $path
-        traverse "$path" ""
-    fi
-done
+printf "$direct\n"
+
+count_dir=0
+count_files=0
+traverse "$direct" ""
 
 printf "\n"
 
